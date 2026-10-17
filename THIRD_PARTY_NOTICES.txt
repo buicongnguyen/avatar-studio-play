@@ -241,3 +241,35 @@ Exact source URLs and hashes are carried in the animation metadata.
 Trump-style fist pump and Musk-style shuffle are original project-authored
 inspired gesture loops, not captures or official performances. No outside
 video, music or public-figure character asset is included.
+
+
+Expanded styles, martial arts and regional reactions (2026-10-18)
+---------------------------------------------------------------
+Ballet-influenced side steps/turn: CMU take05_11,0.0-4.7s.
+Contemporary side reach: CMU take49_09,1.0-6.0s.
+Data obtained from mocap.cs.cmu.edu. Database created with funding from NSF EIA-0196217.
+Source and custom free-use terms: https://mocap.cs.cmu.edu/
+Commercial inclusion allowed; no direct resale of motion data, including
+converted forms. These sources are not CC0. Changes: trimming,30Hz sampling,
+exact-bind retargeting, bounded ankle adaptation, local quaternion bridging,
+sole/support calibration and complete-trajectory framing metadata.
+
+Belly, box step, upright breaking, clothed burlesque-inspired, solo tango
+and flamenco-inspired routines are project-authored demonstrations.
+No music, commercial choreography recording or clothing removal is included.
+
+Martial demonstrations use ACCAD/Ohio State University Male2 BVH reference
+and bounded torso accents (CC BY3.0), with project-authored exact-height
+limb IK, guard/strike arcs, support and recovery. Discipline labels describe
+inspired adaptations, not certified captured techniques.
+Source: https://accad.osu.edu/research/motion-lab/mocap-system-and-data
+Licence: https://creativecommons.org/licenses/by/3.0/
+Sword references: Quaternius Universal Animation Library Standard,
+SwordIdle and SwordAttack, CC0. The fitted sword prop is project-authored.
+https://quaternius.com/packs/universalanimationlibrary.html
+https://creativecommons.org/publicdomain/zero/1.0/
+Exact source filenames, hashes and adaptations travel in clip metadata.
+
+The19 regional hit reactions and ready/fall-to-sit/seated/recover chain
+are project-authored. Inspected CC0 sources are documented in source tools;
+their curves are not used in this delivered regional reaction pack.

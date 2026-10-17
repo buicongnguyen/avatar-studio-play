@@ -8,6 +8,7 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 
 ## Try this update
 
+- **Move → Dance → Load dance styles:** belly, box step, ballet-influenced turn, upright breaking, clothed burlesque-inspired flourish, contemporary reach, solo tango and flamenco-inspired steps. **Combat → Load martial arts:** boxing, Taekwondo-style, Muay Thai-style, solo Judo entry and sword actions. **Hit reactions:** regional recoils and a supported backward sit/recovery chain. All are optional animation-only downloads.
 - **Settings → Body:** independent Muscle fullness, Torso/Leg length, and a longer-legs/shorter-torso preset. **Outfit:** fitted tops and sport shorts, shirt length, opaque sport bra/optional support layer, padding, and sneakers/socks/barefoot on audited anatomical rigs. Default public wardrobe restrictions remain.
 - **Play → Touch strength:** 1–10 gain, default4, with region caps. Strong touches carry nearby skin and clothing together. At higher settings the touch area expands after depth reaches its limit.
 - **Settings → Face:** seven face-shape controls, cheek fullness up to 200%, persistent cheek/lip colors and iris color. Independent jaw width/roundness avoids forcing a pointed chin; eye-socket depth is a small signed adjustment. Glasses, headbands and original/short/bob hairstyles can be combined on the anatomical avatars. Original Nabi/Haru retain their supported controls. Built-in mouth lining is now matte dark pink.
@@ -25,6 +26,7 @@ The Korean gymnast has Light (39,496 triangles,7.03MB) and PC HD (142,728 triang
 
 ## Known limits
 
+New style routines are short authored/adapted previews; only the two identified new dance phrases are captured. Breaking is upright top-rock and tango/Judo are solo. Supported falls end sitting, not in a ragdoll. Shared finger joints limit fist detail; the legacy Nabi skirt stays elevated when seated and a sleeve can dip about4mm into the floor. Full-trajectory framing can make travelling routines small on phones.
 Face customization exports ordinary morphs, textures and visible accessories. Animated eye-shape blink/gaze corrections need the documented studio runtime adapter in another engine. Only the selected hairstyle is included in a GLB; rigid bob tips can approach shoulders in large head turns. Makeup is texture recoloring, not freehand painting.
 
 Two-person practice is a coordinated animation prototype with swept foot collision checks, not a ragdoll or a complete combat game. Haru is the only NPC in this version. Its additional reaction pack is about 81 KB; Haru loads separately (3.41 MB). NPCs and paired-session state are excluded from primary-avatar GLB/preset export. Editing the body/outfit or choosing a different action ends practice.
