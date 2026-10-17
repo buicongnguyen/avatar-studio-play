@@ -8,13 +8,14 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 
 ## Try this update
 
+- **Move → Life:** load solo kiss/hug invitations and floor rest motions. The connected floor rest sequence lies down, rests on the back and both sides, and stands up. Sleep closes supported eyelids; kiss gestures temporarily shape the lips. Your saved face settings return afterward. The body works on Original Nabi, whose face lacks these controls.
 - **Move → Dance → Load dance styles:** belly, box step, ballet-influenced turn, upright breaking, clothed burlesque-inspired flourish, contemporary reach, solo tango and flamenco-inspired steps. **Combat → Load martial arts:** boxing, Taekwondo-style, Muay Thai-style, solo Judo entry and sword actions. **Hit reactions:** regional recoils and a supported backward sit/recovery chain. All are optional animation-only downloads.
 - **Settings → Body:** independent Muscle fullness, Torso/Leg length, and a longer-legs/shorter-torso preset. **Outfit:** fitted tops and sport shorts, shirt length, opaque sport bra/optional support layer, padding, and sneakers/socks/barefoot on audited anatomical rigs. Default public wardrobe restrictions remain.
 - **Play → Touch strength:** 1–10 gain, default4, with region caps. Strong touches carry nearby skin and clothing together. At higher settings the touch area expands after depth reaches its limit.
 - **Settings → Face:** seven face-shape controls, cheek fullness up to 200%, persistent cheek/lip colors and iris color. Independent jaw width/roundness avoids forcing a pointed chin; eye-socket depth is a small signed adjustment. Glasses, headbands and original/short/bob hairstyles can be combined on the anatomical avatars. Original Nabi/Haru retain their supported controls. Built-in mouth lining is now matte dark pink.
 - **Play → Two-person practice → Practice partner:** your current character faces Haru Light. Low or High kick reacts only on contact; Haru recoils into sitting. Stand up recovers, Reset restarts. Partner distance tests hits and misses. Phones enter a full-stage view with Controls/Practice view and End practice buttons.
 - **Move → Dance → Load more dances:** captured Salsa, K-pop Magnetic and Roly Poly, YMCA-style gestures, Robot dance, and original Trump-style/Musk-style inspired loops. The three captured phrases play once and retain their travel. No music is included; inspired loops are not actual public-figure captures.
-- **Move → Social → Load social motions:** Hug, Self-hug, and lowering onto hands and knees to look forward, then standing. These are solo gestures without a simulated partner.
+- **Move → Life → Load social motions:** Hug, Self-hug, and lowering onto hands and knees to look forward, then standing. These are solo gestures without a simulated partner.
 - **Settings → Face:** Cheek fullness, Lip lick and Blow air on the eleven anatomical rigs. The new shape persists while expressions play; short face actions return to your chosen expression.
 - **Settings → Body → Bust & chest:** Bust firm and Bust shape reach +150% of their authored morph displacement. Existing saved values retain their previous effect. This does not mean body dimensions grow by150%.
 - Combat kicks have corrected knee/ankle orientation. Several older raised-foot motions and the backflip landing use precomputed repairs; intentional high-flight/inverted pointing is preserved.
@@ -26,6 +27,7 @@ The Korean gymnast has Light (39,496 triangles,7.03MB) and PC HD (142,728 triang
 
 ## Known limits
 
+Life floor poses are fitted at default shapes/outfits. Small legacy hair/garment seam intersections remain (up to about5.6mm), and the largest hand residual is about1.2mm. Rest holds are static; rigid hair and skirts can clump or crease. Use the connected sequence for entry/exit.
 New style routines are short authored/adapted previews; only the two identified new dance phrases are captured. Breaking is upright top-rock and tango/Judo are solo. Supported falls end sitting, not in a ragdoll. Shared finger joints limit fist detail; the legacy Nabi skirt stays elevated when seated and a sleeve can dip about4mm into the floor. Full-trajectory framing can make travelling routines small on phones.
 Face customization exports ordinary morphs, textures and visible accessories. Animated eye-shape blink/gaze corrections need the documented studio runtime adapter in another engine. Only the selected hairstyle is included in a GLB; rigid bob tips can approach shoulders in large head turns. Makeup is texture recoloring, not freehand painting.
 
@@ -33,6 +35,6 @@ Two-person practice is a coordinated animation prototype with swept foot collisi
 
 This is a test version, not a full body/cloth collision simulator. Large body changes can expose garment intersections. The old Salsa (`Dance sway · legacy`) right arm and the self-hug now use checked paths around the torso; this is a targeted correction, not general collision physics. Nabi's skirt may intersect the legs during wide steps; her crop-jacket has a small existing seam fold at extreme firmness. The Asian man's mouth has a small lower-lip gap while open. Lip lick and Blow air are stylized approximations, not a speech or tongue-collision system. Some floor poses leave a small knee gap.
 
-New cheek/tongue morphs and ordinary materials export in GLB. Timed face actions are studio logic and are not automatically baked into animation clips. Export includes body motions loaded in the session. Shy cheek tint and touch deformation are runtime effects.
+New cheek/tongue morphs and ordinary materials export in GLB. Timed face actions and Life expression cues are studio logic and are not automatically baked into animation clips. Export includes body motions loaded in the session. Shy cheek tint and touch deformation are runtime effects.
 
 Model, motion and dependency credits: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).

@@ -273,3 +273,15 @@ Exact source filenames, hashes and adaptations travel in clip metadata.
 The19 regional hit reactions and ready/fall-to-sit/seated/recover chain
 are project-authored. Inspected CC0 sources are documented in source tools;
 their curves are not used in this delivered regional reaction pack.
+
+
+Life motion expansion (2026-10-18)
+- Floor actions: KayKit Lie_Down/Lie_StandUp timing references, Kay Lousberg, CC0 1.0;
+  authored descent/rest/roll geometry and reverse fitted descent for rising.
+  Lie_Idle supplies the family reference and hold duration only.
+  Official source: https://kaylousberg.itch.io/kaykit-character-animations
+  Source manifests and rebuild details: tools/life-floor/ in the source repository.
+- Solo blow-kiss and hug/kiss invitation: project-authored skeletal motion.
+  Build metadata and measurements: tools/life-gestures/ in the source repository.
+- Temporary Life facial cues and posed floor camera framing: project-authored code.
+  Face timing metadata is not baked glTF morph animation.
