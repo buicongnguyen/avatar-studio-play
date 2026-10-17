@@ -8,6 +8,7 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 
 ## Try this update
 
+- **Settings → Face:** seven face-shape controls, cheek fullness up to 200%, persistent cheek/lip colors and iris color. Independent jaw width/roundness avoids forcing a pointed chin; eye-socket depth is a small signed adjustment. Glasses, headbands and original/short/bob hairstyles can be combined on the anatomical avatars. Original Nabi/Haru retain their supported controls. Built-in mouth lining is now matte dark pink.
 - **Play → Two-person practice → Practice partner:** your current character faces Haru Light. Low or High kick reacts only on contact; Haru recoils into sitting. Stand up recovers, Reset restarts. Partner distance tests hits and misses. Phones enter a full-stage view with Controls/Practice view and End practice buttons.
 - **Move → Dance → Load more dances:** captured Salsa, K-pop Magnetic and Roly Poly, YMCA-style gestures, Robot dance, and original Trump-style/Musk-style inspired loops. The three captured phrases play once and retain their travel. No music is included; inspired loops are not actual public-figure captures.
 - **Move → Social → Load social motions:** Hug, Self-hug, and lowering onto hands and knees to look forward, then standing. These are solo gestures without a simulated partner.
@@ -21,6 +22,8 @@ Existing content remains: 15 combat actions including left/right slaps, two flip
 The Korean gymnast has Light (39,496 triangles,7.03MB) and PC HD (142,728 triangles,23.75MB) tiers. Optional motion packs download for the selected avatar; they add animation tracks, not new character geometry. Phone performance depends on the device and selected tier.
 
 ## Known limits
+
+Face customization exports ordinary morphs, textures and visible accessories. Animated eye-shape blink/gaze corrections need the documented studio runtime adapter in another engine. Only the selected hairstyle is included in a GLB; rigid bob tips can approach shoulders in large head turns. Makeup is texture recoloring, not freehand painting.
 
 Two-person practice is a coordinated animation prototype with swept foot collision checks, not a ragdoll or a complete combat game. Haru is the only NPC in this version. Its additional reaction pack is about 81 KB; Haru loads separately (3.41 MB). NPCs and paired-session state are excluded from primary-avatar GLB/preset export. Editing the body/outfit or choosing a different action ends practice.
 

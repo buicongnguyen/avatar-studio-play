@@ -1,8 +1,12 @@
 {
-  "sourceCommit": "ef0ef87caba58f4c644d16a7a79ffe09f9a9ea3f",
-  "builtAt": "2026-10-17T18:05:40.144897+00:00",
+  "sourceCommit": "d2c7e4779960da0c3fd5b3bab24bd96608369812",
+  "builtAt": "2026-10-17T18:26:37.575794+00:00",
   "rootRelease": true,
   "features": [
+    "Face shape: lips, nose, eye width/opening/depth and independent jaw width/roundness",
+    "Persistent cheek/lip makeup and iris colors",
+    "Glasses, headband, short and bob hairstyles",
+    "Matte dark-pink mouth lining",
     "Lean adult Asian man profile matching Ponytail height",
     "Two-person practice: low/high kick, contact detection, recoil-to-sit and recovery",
     "K-pop Magnetic and Roly Poly",
