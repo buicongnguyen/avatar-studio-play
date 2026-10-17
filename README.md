@@ -4,7 +4,7 @@ Open **https://buicongnguyen.github.io/avatar-studio-play/**. Current updates ar
 
 This repository contains the built website. Source development is on `main` in the private avatar-studio repository. Release identity is in [release.json](release.json).
 
-Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unlocks all ten cards, available wardrobe choices, PC HD tiers and GLB import. `nabi` selects updated Nabi with default clothes. These are demo switches, not security: browser assets remain publicly downloadable.
+Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unlocks all eleven cards, available wardrobe choices, PC HD tiers and GLB import. `nabi` selects updated Nabi with default clothes. These are demo switches, not security: browser assets remain publicly downloadable.
 
 ## Try this update
 
