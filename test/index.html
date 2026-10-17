@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#202024" />
+    <title>Avatar Studio — dance test</title>
+    <meta name="description" content="A browser character workspace for shaping avatars, exploring outfits, and previewing motion." />
+    <script type="module" crossorigin src="./assets/index-BF8Hmo2W.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-QeGaIffx.css">
+  </head>
+  <body>
+    <div class="studio-shell">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="Avatar Studio home"><span class="brand-mark" aria-hidden="true">a<span>·</span></span><span>Avatar Studio<small>DANCE TEST · OCT 2026</small></span></a>
+        <div class="topbar-meta"><span class="live-dot" aria-hidden="true"></span> Test version · light models</div>
+        <div class="topbar-actions">
+          <details class="file-menu" id="file-menu">
+            <summary class="button button-quiet">Presets <span aria-hidden="true">⌄</span></summary>
+            <div class="file-menu-content">
+              <button type="button" id="save-browser">Save in this browser</button>
+              <button type="button" id="load-browser">Load browser preset</button>
+              <span class="menu-divider"></span>
+              <button type="button" id="download-preset">Download preset JSON</button>
+              <button type="button" id="import-preset">Import preset JSON</button>
+            </div>
+          </details>
+          <button class="button button-secondary" id="import-avatar" type="button"><span aria-hidden="true">＋</span> Import GLB</button>
+          <button class="button button-primary" id="export-avatar" type="button"><span aria-hidden="true">↗</span> Export GLB</button>
+        </div>
+      </header>
+
+      <aside class="library-panel" aria-label="Avatar library">
+        <div class="panel-heading"><span class="eyebrow">YOUR COLLECTION</span><span class="count-badge">04</span></div>
+        <h1>Choose your dancer.</h1>
+        <p class="muted intro-copy">Pick a character, try a dance, make it yours.</p>
+        <div class="avatar-list" role="group" aria-label="Choose a source avatar">
+          <button class="avatar-card selected" data-avatar="nabi" type="button" aria-pressed="true">
+            <span class="avatar-preview preview-nabi" aria-hidden="true"><svg viewBox="0 0 80 100"><path class="silhouette-hair" d="M25 30c-1-26 33-26 31 0l5 21H20z"/><ellipse cx="40" cy="24" rx="12" ry="15"/><path d="m30 42-14 9-9 32 6 2 13-26 4 26h20l4-26 13 26 6-2-9-32-14-9z"/><path d="m30 83-2 34h10l3-29 3 29h10l-4-34z"/></svg></span>
+            <span class="avatar-card-copy"><strong>Nabi</strong><small>Feminine · rebuilt from the girl sample</small><span class="avatar-tag">New body · 31 motions</span></span>
+            <span class="selection-mark" aria-hidden="true">✓</span>
+          </button>
+          <button class="avatar-card" data-avatar="haru" type="button" aria-pressed="false">
+            <span class="avatar-preview preview-haru" aria-hidden="true"><svg viewBox="0 0 80 100"><path class="silhouette-hair" d="M26 20Q24 3 40 5q19 0 15 23l-7-8-19 7z"/><ellipse cx="40" cy="25" rx="12" ry="15"/><path d="m28 43-15 9-8 32 7 2 13-26 4 27h23l3-27 13 26 7-2-8-32-15-9z"/><path d="m29 84-1 33h10l3-29 3 29h10l-2-33z"/></svg></span>
+            <span class="avatar-card-copy"><strong>Haru</strong><small>Masculine · source avatar</small><span class="avatar-tag">Ready to explore</span></span>
+            <span class="selection-mark" aria-hidden="true">✓</span>
+          </button>
+          <button class="avatar-card" data-avatar="lite" type="button" aria-pressed="false">
+            <span class="avatar-preview preview-nabi" aria-hidden="true"><svg viewBox="0 0 80 100"><path class="silhouette-hair" d="M24 26c0-25 32-25 32 0v14H24z"/><ellipse cx="40" cy="25" rx="12" ry="15"/><path d="m30 42-14 9-9 32 6 2 13-26 4 26h20l4-26 13 26 6-2-9-32-14-9z"/><path d="m30 83-2 34h10l3-29 3 29h10l-4-34z"/></svg></span>
+            <span class="avatar-card-copy"><strong>Lite</strong><small>Feminine · light avatar, about 18k triangles</small><span class="avatar-tag">Tee &amp; denim · 31 motions</span></span>
+            <span class="selection-mark" aria-hidden="true">✓</span>
+          </button>
+          <button class="avatar-card" data-avatar="game" type="button" aria-pressed="false">
+            <span class="avatar-preview preview-haru" aria-hidden="true"><svg viewBox="0 0 80 100"><path class="silhouette-hair" d="M27 30c-2-27 28-27 27 0l5 10-6 18-3-24z"/><ellipse cx="40" cy="25" rx="12" ry="15"/><path d="m30 42-14 9-9 32 6 2 13-26 4 26h20l4-26 13 26 6-2-9-32-14-9z"/><path d="m30 83-2 34h10l3-29 3 29h10l-4-34z"/></svg></span>
+            <span class="avatar-card-copy"><strong>Game</strong><small>Feminine · game style, about 24k triangles</small><span class="avatar-tag">Crop tee &amp; boots · 31 motions</span></span>
+            <span class="selection-mark" aria-hidden="true">✓</span>
+          </button>
+          <button class="avatar-card" data-avatar="face" type="button" aria-pressed="false">
+            <span class="avatar-preview preview-haru" aria-hidden="true"><svg viewBox="0 0 80 100"><path class="silhouette-hair" d="M27 30c-2-27 28-27 27 0l5 10-6 18-3-24z"/><ellipse cx="40" cy="25" rx="12" ry="15"/><path d="m30 42-14 9-9 32 6 2 13-26 4 26h20l4-26 13 26 6-2-9-32-14-9z"/><path d="m30 83-2 34h10l3-29 3 29h10l-4-34z"/></svg></span>
+            <span class="avatar-card-copy"><strong>Game · face rig</strong><small>Game style with jaw, eyes and 12 expressions</small><span class="avatar-tag">Face panel · 55 motions</span></span>
+            <span class="selection-mark" aria-hidden="true">✓</span>
+          </button>
+        </div>
+
+        <div class="reference-section">
+          <div class="section-label"><h2>Sample images</h2><span class="tiny-label">REFERENCE</span></div>
+          <div class="reference-grid">
+            <a href="./references/girl.png" target="_blank" rel="noopener" class="reference-card"><img src="./references/girl.png" alt="Target art reference for the female character" /><span>Girl reference <span aria-hidden="true">↗</span></span></a>
+            <a href="./references/boy.png" target="_blank" rel="noopener" class="reference-card"><img src="./references/boy.png" alt="Target art reference for the male character" /><span>Boy reference <span aria-hidden="true">↗</span></span></a>
+          </div>
+          <div class="reference-downloads"><a href="./references/girl.png" download="girl.png">Download girl PNG</a><a href="./references/boy.png" download="boy.png">Download boy PNG</a></div><p class="reference-note">Original concept images. The library includes fitted 3D characters and two face variants to compare.</p>
+        </div>
+        <div class="library-bottom"><span class="local-icon" aria-hidden="true">◇</span><p><strong>Made for your next world.</strong><span>Characters for games, scenes, and motion. Your imported files stay in this browser session.</span></p></div>
+      </aside>
+
+      <main class="stage" aria-label="3D avatar preview">
+        <canvas id="avatar-canvas" aria-label="Interactive 3D avatar. Drag to orbit, scroll or pinch to zoom." tabindex="0"></canvas>
+        <div class="stage-heading"><div><span class="eyebrow">LIVE PREVIEW</span><h2 id="avatar-name">Nabi <span>01</span></h2></div><span class="source-badge" id="source-badge"><span></span> Source avatar</span></div>
+        <div class="stage-loading" id="stage-loading"><div class="loading-ring"></div><p>Preparing your workspace<span>Loading the character and its motions</span></p></div>
+        <div class="quick-motion" aria-label="Quick dance controls"><button id="quick-play" type="button" aria-label="Pause dance" disabled>Ⅱ Pause</button><select id="quick-dance" aria-label="Dance shortcut" disabled><option value="">Choose a dance</option></select></div>
+        <div class="stage-help"><span aria-hidden="true">↔</span> Drag to orbit <span class="help-divider"></span> Scroll / pinch to zoom</div>
+        <div class="stage-bottom"><div class="preview-status"><span class="live-dot" aria-hidden="true"></span><span id="stage-status">Preparing studio…</span></div><div class="stage-controls"><button class="stage-rest stage-touch" id="touch-mode" type="button" aria-pressed="false" title="Press the skin: hold to press deeper, release and it springs back"><span aria-hidden="true">✋</span> Touch</button><button class="stage-rest" id="fit-camera" type="button" aria-label="Frame character in the viewport" title="Frame character">⌖</button><button class="stage-rest" id="rest-pose" type="button">Rest pose <span aria-hidden="true">↺</span></button></div></div>
+        <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+      </main>
+
+      <aside class="inspector-panel" aria-label="Character controls">
+        <div class="inspector-heading"><span class="eyebrow">THE DETAILS</span><h2>Make it yours.</h2><p class="muted">A little adjustment goes a long way.</p></div>
+        <div class="tablist" role="tablist" aria-label="Character settings">
+          <button id="tab-body" class="tab active" role="tab" aria-selected="true" aria-controls="inspector-content" tabindex="0" data-tab="body" type="button"><span aria-hidden="true">◉</span>Body</button>
+          <button id="tab-outfit" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="outfit" type="button"><span aria-hidden="true">◇</span>Outfit</button>
+          <button id="tab-look" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="look" type="button"><span aria-hidden="true">✦</span>Look</button>
+          <button id="tab-motion" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="motion" type="button"><span aria-hidden="true">▷</span>Motion</button>
+          <button id="tab-physics" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="physics" type="button"><span aria-hidden="true">≈</span>Physics</button>
+          <button id="tab-face" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="face" type="button"><span aria-hidden="true">☺</span>Face</button>
+        </div>
+        <div class="inspector-content" id="inspector-content" role="tabpanel" aria-labelledby="tab-body"><p class="empty-copy">Character controls will appear here.</p></div>
+        <div class="inspector-footer"><button id="reset-avatar" class="button button-reset" type="button"><span aria-hidden="true">↺</span> Reset character</button><span>Changes preview instantly</span></div>
+      </aside>
+      <footer class="workspace-footer"><span><span class="footer-dot"></span> AVATAR STUDIO <span class="footer-version">/ WEB EDITION</span></span><span><a href="./THIRD_PARTY_NOTICES.txt" target="_blank" rel="noopener">Credits</a> · Test build · No audio</span></footer>
+    </div>
+    <input type="file" id="avatar-file" accept=".glb,model/gltf-binary" hidden />
+    <input type="file" id="preset-file" accept=".json,application/json" hidden />
+  </body>
+</html>
