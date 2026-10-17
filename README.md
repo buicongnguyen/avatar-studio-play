@@ -6,7 +6,7 @@ This repository contains the reviewed built website. Development is in the priva
 
 Start with updated Nabi, Nabi original, or Haru in their default clothes. Access accepts `nabi` as a shortcut to updated Nabi; `buicongnguyen` unlocks all ten character cards, wardrobe choices, PC HD where available and GLB import. These are convenience demo switches, not security; browser assets are publicly downloadable.
 
-The new Korean gymnast Light has 39,496 triangles, complete barefoot geometry, 55 embedded motions, body sliders and face controls. Her design remains a stylized interpretation of generated references.
+The new Korean gymnast Light has 39,496 triangles, complete barefoot geometry, 55 embedded motions, body sliders and face controls. Her PC HD tier has 142,728 triangles and a 23.75 MB download, with the same motions and controls. Select her card, then change Model detail to HD after unlocking. Her design remains a stylized interpretation of generated references.
 
 In Move, load extra motions for **Normal walk**, **Normal run**, gym and everyday actions, and a punch. The earlier crouched-looking clips remain as **Low walk / Low run**. The two optional packs contain 21 motions and roughly 0.50–0.61 MB of animation data per avatar, without duplicate models or textures. Playlists, frame scrubbing and the repeating dance demonstration are included.
 

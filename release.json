@@ -1,6 +1,6 @@
 {
-  "sourceCommit": "5dac57d3e29c2e82556f6c70c187a78598e84104",
-  "builtAt": "2026-10-17T13:58:02.835357+00:00",
+  "sourceCommit": "2cd4c02f5adcc64afa9d7430b6407e31375c69cb",
+  "builtAt": "2026-10-17T14:07:03.175714+00:00",
   "rootRelease": true,
   "features": [
     "Korean gymnast Light",
@@ -10,6 +10,7 @@
     "Responsive UI",
     "Playlists and scrub",
     "Silent video",
-    "Bounded touch torso response"
+    "Bounded touch torso response",
+    "Korean gymnast PC HD"
   ]
 }
