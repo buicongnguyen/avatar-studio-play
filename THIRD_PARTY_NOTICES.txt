@@ -181,3 +181,36 @@ The project authored this fictional adult character with Codex, using the
 existing MakeHuman/MPFB avatar pipeline and generated design references.
 The original source-asset credits above still apply. This is an independent
 stylized 3D interpretation, not a scan or a guaranteed likeness of a real person.
+
+Optional combat motions (2026-10-18)
+
+Open Motion Project by ACCAD / The Ohio State University, Male2 BVH set.
+Source: https://accad.osu.edu/research/motion-lab/mocap-system-and-data
+Archive: https://accad.osu.edu/sites/accad.osu.edu/files/Male2_bvh.zip
+License: Creative Commons Attribution 3.0
+https://creativecommons.org/licenses/by/3.0/
+Uses Male2_E2_JabRight, Male2_E15_BodyJabRight, Male2_G2_FrontKick,
+Male2_E13_BlockRightHigh, Male2_E14_BlockRightLow and Male2_D1_StandToReady.
+Changes: retargeting, upright stance, fist/thumb cleanup, target-height and
+support correction, timing, authored guard and aerial/directional variations.
+KayKit Character Animations 1.1 by Kay Lousberg, CC0, Jump_Full_Short:
+https://kaylousberg.itch.io/kaykit-character-animations
+https://creativecommons.org/publicdomain/zero/1.0/
+Jump timing is adapted; aerial strike arcs/target adjustments are project-authored.
+No game-ripped animations or Mortal Kombat assets are used.
+
+Optional acrobatics and dance additions (2026-10-18)
+
+Acrobatics: CMU Graphics Lab Motion Capture Database, takes87_03 (backflip,
+60 FPS) and85_06 (KickFlip,120 FPS; forward flip with a kick entry).
+Source and terms: https://mocap.cs.cmu.edu/
+Data may be included in commercial products but may not be directly resold
+as motion data, even in converted form. This source is not CC0.
+Data obtained from mocap.cs.cmu.edu. Database created with funding from NSF EIA-0196217.
+Changes: trim/resample, exact-bind retargeting, calibrated hands/feet,
+local landing clearance correction, support phases and framing metadata.
+The captured tuck, inversion and root travel are retained.
+
+YMCA-style letter gestures and Robot dance are original project-authored
+human animation loops. No commercial music, Unitree choreography/policy,
+or robot hardware assets are bundled with these loops.
