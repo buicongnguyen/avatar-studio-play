@@ -2,14 +2,16 @@
 
 Open **https://buicongnguyen.github.io/avatar-studio-play/**.
 
-This repository contains the reviewed built website. Source development is maintained separately on the private avatar-studio repository's main branch.
+This repository contains the reviewed built website. Development is in the private avatar-studio repository on main. The previous `/test/` snapshot is preserved; current releases use the root page.
 
-Start with updated Nabi, Nabi · original, or Haru in their default clothes. Settings accepts `nabi` as a shortcut to updated Nabi; `buicongnguyen` opens all nine avatars, wardrobe choices, the two ponytail PC HD tiers and GLB import.
+Start with updated Nabi, Nabi original, or Haru in their default clothes. Access accepts `nabi` as a shortcut to updated Nabi; `buicongnguyen` unlocks all ten character cards, wardrobe choices, PC HD where available and GLB import. These are convenience demo switches, not security; browser assets are publicly downloadable.
 
-Try the Motion tab's repeating four-minute demo, common actions and dances. Load gym & activities for kneeling, squats, floor exercises, a retargeted cheer, punches and sitting. These optional packs contain animation tracks, without another model download. The Face tab offers clearer closed-mouth Friendly smiles, refined winks and a Strength slider according to each rig's capabilities. Original Nabi has no facial rig. Body controls, reference thumbnails, presets and GLB export are included.
+The new Korean gymnast Light has 39,496 triangles, complete barefoot geometry, 55 embedded motions, body sliders and face controls. Her design remains a stylized interpretation of generated references.
 
-In Touch mode, move the bottom-left pad to aim and hold Press or Pull on the right. The shared Force slider controls both. Supported faces transition to Friendly on contact, Happy after a two-second hold, then Friendly and Neutral after release. These are bounded visual effects.
+In Move, load extra motions for **Normal walk**, **Normal run**, gym and everyday actions, and a punch. The earlier crouched-looking clips remain as **Low walk / Low run**. The two optional packs contain 21 motions and roughly 0.50–0.61 MB of animation data per avatar, without duplicate models or textures. Playlists, frame scrubbing and the repeating dance demonstration are included.
 
-The earlier `/test/` page is retained as a snapshot. Current releases are at the root URL above. Imported GLBs stay in your browser session. Client-side demo codes are convenience controls; this static website and its runtime assets are publicly downloadable.
+Play offers the two-thumb touch pad by default and an optional draggable hand. Press/Pull share Force. Compatible faces react Friendly → Happy → Friendly → Neutral; optional upper-body reaction is bounded and off initially. This is visual deformation, not full soft-body or balance simulation.
 
-Model, motion and dependency credits: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
+The interface has Violet, Plum & gold and Lagoon palettes with light/dark mode. Camera changes respect reduced motion. Shots saves pictures, silent 5/10/30-second videos where the browser supports recording, and GLB exports. Recordings stay local; no microphone is used. Actual phone performance and browser recording support vary.
+
+Model, motion and dependency credits: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt). Build identity: [release.json](release.json).

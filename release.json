@@ -1,0 +1,15 @@
+{
+  "sourceCommit": "5dac57d3e29c2e82556f6c70c187a78598e84104",
+  "builtAt": "2026-10-17T13:58:02.835357+00:00",
+  "rootRelease": true,
+  "features": [
+    "Korean gymnast Light",
+    "Normal walk",
+    "Normal run",
+    "Low walk/run retained",
+    "Responsive UI",
+    "Playlists and scrub",
+    "Silent video",
+    "Bounded touch torso response"
+  ]
+}

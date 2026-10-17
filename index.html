@@ -3,21 +3,52 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-    <meta name="theme-color" content="#202024" />
+    <meta name="theme-color" content="#FFF6EC" />
+    <script>
+      // palette + theme before first paint (no light flash in dark mode); src/app.js owns them afterwards
+      try {
+        var d = document.documentElement, q = new URLSearchParams(location.search);
+        var p = q.get('palette') || localStorage.getItem('avatar-studio:palette:v1'), t = q.get('theme') || localStorage.getItem('avatar-studio:theme:v1') || 'auto';
+        d.dataset.palette = ['violet', 'marigold', 'lagoon'].indexOf(p) >= 0 ? p : 'violet';
+        d.dataset.theme = t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches) ? 'dark' : 'light';
+      } catch (e) { /* storage or matchMedia unavailable: defaults */ }
+    </script>
     <title>Avatar Studio</title>
     <meta name="description" content="A browser character workspace for shaping avatars, exploring outfits, and previewing motion." />
-    <script type="module" crossorigin src="./assets/index-gQKnArXr.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DiQ7NJir.css">
+    <script type="module" crossorigin src="./assets/index-BkIgr98I.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CczP1GTA.css">
   </head>
   <body>
-    <div class="studio-shell">
+    <svg class="sprite" aria-hidden="true" focusable="false">
+      <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14.2c1 1.6 2.3 2.4 4 2.4s3-.8 4-2.4"/><circle cx="9" cy="10" r=".9" fill="currentColor" stroke="none"/><circle cx="15" cy="10" r=".9" fill="currentColor" stroke="none"/></symbol>
+      <symbol id="i-move" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2.2"/><path d="M12 7v6M6.5 9.5 12 8l5.5 1.5M12 13l-4 7M12 13l4 7"/></symbol>
+      <symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
+      <symbol id="i-shots" viewBox="0 0 24 24"><path d="M4 8h3l1.5-2h7L17 8h3v11H4z"/><circle cx="12" cy="13.5" r="3.5"/></symbol>
+      <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+      <symbol id="i-focus" viewBox="0 0 24 24"><path d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></symbol>
+      <symbol id="i-hand" viewBox="0 0 24 24"><path d="M9 11V5.5a1.5 1.5 0 0 1 3 0V10m0-1.5a1.5 1.5 0 0 1 3 0V11m0-.5a1.5 1.5 0 0 1 3 0v4.5c0 3-2.2 5-5 5h-1c-1.8 0-3-.8-4-2l-3-4.2c-.7-1 .5-2.2 1.6-1.4L9 15"/></symbol>
+      <symbol id="i-reset" viewBox="0 0 24 24"><path d="M4 12a8 8 0 1 0 2.6-5.9M4 4v4.5h4.5"/></symbol>
+      <symbol id="i-fit" viewBox="0 0 24 24"><circle cx="12" cy="12" r="3"/><path d="M12 3v4M12 17v4M3 12h4M17 12h4"/></symbol>
+      <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+      <symbol id="i-export" viewBox="0 0 24 24"><path d="M12 15V4M7.5 8.5 12 4l4.5 4.5M5 14v5h14v-5"/></symbol>
+      <symbol id="i-key" viewBox="0 0 24 24"><circle cx="8" cy="15" r="4"/><path d="m11 12 8-8m-3 3 2 2m-5 1 2 2"/></symbol>
+      <symbol id="i-close" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+      <symbol id="i-panel" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2.5"/><path d="M15 4v16"/></symbol>
+      <symbol id="i-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 11v5M12 8h.01"/></symbol>
+      <symbol id="i-presets" viewBox="0 0 24 24"><path d="M6 4h12v16l-6-4-6 4z"/></symbol>
+    </svg>
+
+    <div class="app" id="app" data-mode="move" data-sheet="half" data-drawer="open" data-focus="off">
       <header class="topbar">
-        <a class="brand" href="./" aria-label="Avatar Studio home"><span class="brand-mark" aria-hidden="true">a<span>·</span></span><span>Avatar Studio<small>CHARACTER WORKSPACE</small></span></a>
-        <div class="topbar-meta"><span class="live-dot" aria-hidden="true"></span> Light + PC HD</div>
+        <a class="brand" href="./" aria-label="Avatar Studio home"><span class="brand-mark" aria-hidden="true">a<span>·</span></span><span class="brand-name">Avatar Studio</span></a>
+        <button class="who" id="picker-open" type="button" aria-haspopup="dialog" aria-label="Choose a character">
+          <span class="who-thumb" id="who-thumb" aria-hidden="true"></span>
+          <span class="who-text"><small>Character</small><strong id="avatar-name">Nabi</strong></span>
+          <svg class="icon" aria-hidden="true"><use href="#i-chevron"/></svg>
+        </button>
         <div class="topbar-actions">
-          <button class="button button-quiet" id="open-settings" type="button" aria-haspopup="dialog">Settings</button>
           <details class="file-menu" id="file-menu">
-            <summary class="button button-quiet">Presets <span aria-hidden="true">⌄</span></summary>
+            <summary class="button button-quiet" aria-label="Presets"><svg class="icon" aria-hidden="true"><use href="#i-presets"/></svg><span class="label">Presets</span></summary>
             <div class="file-menu-content">
               <button type="button" id="save-browser">Save in this browser</button>
               <button type="button" id="load-browser">Load browser preset</button>
@@ -25,38 +56,39 @@
               <span class="menu-divider"></span>
               <button type="button" id="download-preset">Download preset JSON</button>
               <button type="button" id="import-preset">Import preset JSON</button>
+              <span class="menu-divider menu-mobile-only"></span>
+              <button type="button" id="menu-import" class="menu-mobile-only">Import GLB</button>
+              <button type="button" id="menu-access" class="menu-mobile-only">Library access</button>
             </div>
           </details>
-          <button class="button button-secondary" id="import-avatar" type="button"><span aria-hidden="true">＋</span> Import GLB</button>
-          <button class="button button-primary" id="export-avatar" type="button"><span aria-hidden="true">↗</span> Export GLB</button>
+          <button class="button button-quiet" id="import-avatar" type="button" aria-label="Import GLB"><svg class="icon" aria-hidden="true"><use href="#i-plus"/></svg><span class="label">Import</span></button>
+          <button class="button button-primary" id="export-avatar" type="button" aria-label="Export GLB"><svg class="icon" aria-hidden="true"><use href="#i-export"/></svg><span class="label">Export</span></button>
+          <button class="button button-quiet" id="open-settings" type="button" aria-haspopup="dialog" aria-label="Library access"><svg class="icon" aria-hidden="true"><use href="#i-key"/></svg><span class="label">Access</span></button>
         </div>
       </header>
 
-      <aside class="library-panel" aria-label="Avatar library">
-        <div class="panel-heading"><span class="eyebrow">YOUR COLLECTION</span><span class="count-badge">03</span></div>
-        <h1>Choose your character.</h1>
-        <p class="muted intro-copy">Pick a character, try a dance, make it yours.</p>
-        <div class="avatar-list" role="group" aria-label="Choose a source avatar">
-        </div>
+      <nav class="dock" id="dock" role="tablist" aria-label="Studio sections">
+        <button class="dock-item" data-mode="play" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span>Play</span></button>
+        <button class="dock-item" data-mode="move" role="tab" aria-selected="true" aria-controls="inspector-content" tabindex="0" type="button"><svg class="icon" aria-hidden="true"><use href="#i-move"/></svg><span>Move</span></button>
+        <button class="dock-item" data-mode="settings" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-settings"/></svg><span>Settings</span></button>
+        <button class="dock-item" data-mode="shots" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-shots"/></svg><span>Shots</span></button>
+      </nav>
 
-        <div class="reference-section">
-          <div class="section-label"><h2>Sample images</h2><span class="tiny-label">REFERENCE</span></div>
-          <div class="reference-grid">
-            <a href="./references/girl.png" target="_blank" rel="noopener" class="reference-card"><img src="./references/girl.png" alt="Target art reference for the female character" /><span>Girl reference <span aria-hidden="true">↗</span></span></a>
-            <a href="./references/boy.png" target="_blank" rel="noopener" class="reference-card"><img src="./references/boy.png" alt="Target art reference for the male character" /><span>Boy reference <span aria-hidden="true">↗</span></span></a>
-          </div>
-          <div class="reference-downloads"><a href="./references/girl.png" download="girl.png">Download girl PNG</a><a href="./references/boy.png" download="boy.png">Download boy PNG</a></div><p class="reference-note">Original concept images. The library includes fitted 3D characters and two face variants to compare.</p>
-        </div>
-        <div class="library-bottom"><span class="local-icon" aria-hidden="true">◇</span><p><strong>Made for your next world.</strong><span>Characters for games, scenes, and motion. Your imported files stay in this browser session.</span></p></div>
-      </aside>
-
-      <main class="stage" aria-label="3D avatar preview">
+      <main class="stage" id="stage" data-aim="pad" aria-label="3D avatar preview">
         <canvas id="avatar-canvas" aria-label="Interactive 3D avatar. Drag to orbit, scroll or pinch to zoom." tabindex="0"></canvas>
-        <div class="stage-heading"><div><span class="eyebrow">LIVE PREVIEW</span><h2 id="avatar-name">Nabi <span>03</span></h2></div><span class="source-badge" id="source-badge"><span></span> Source avatar</span></div>
+        <div class="stage-top">
+          <div class="view-chips" id="view-chips" role="group" aria-label="Camera view"></div>
+        </div>
+        <span class="sr-only" id="source-badge">Source avatar</span>
+        <div class="stage-tools" role="group" aria-label="Stage tools">
+          <button class="tool" id="touch-mode" type="button" aria-pressed="false" aria-label="Touch the skin" title="Touch the skin: press and release, it springs back"><svg class="icon" aria-hidden="true"><use href="#i-hand"/></svg></button>
+          <button class="tool" id="rest-pose" type="button" aria-label="Rest pose" title="Rest pose"><svg class="icon" aria-hidden="true"><use href="#i-reset"/></svg></button>
+          <button class="tool" id="fit-camera" type="button" aria-label="Frame character" title="Frame character"><svg class="icon" aria-hidden="true"><use href="#i-fit"/></svg></button>
+          <button class="tool" id="focus-enter" type="button" aria-label="Focus on the character" title="Focus: hide all panels"><svg class="icon" aria-hidden="true"><use href="#i-focus"/></svg></button>
+        </div>
         <div class="stage-loading" id="stage-loading"><div class="loading-ring"></div><p>Preparing your workspace<span>Loading the character and its motions</span></p></div>
         <div class="quick-motion" aria-label="Quick action controls"><button id="quick-play" type="button" aria-label="Pause dance" disabled>Ⅱ Pause</button><select id="quick-dance" aria-label="Action shortcut" disabled><option value="">Choose an action</option></select></div>
-        <div class="stage-help"><span aria-hidden="true">↔</span> Drag to orbit <span class="help-divider"></span> Scroll / pinch to zoom</div>
-        <div class="stage-bottom"><div class="preview-status"><span class="live-dot" aria-hidden="true"></span><span id="stage-status">Preparing studio…</span></div><div class="stage-controls"><button class="stage-rest stage-touch" id="touch-mode" type="button" aria-pressed="false" title="Press the skin: hold to press deeper, release and it springs back"><span aria-hidden="true">✋</span> Touch</button><button class="stage-rest" id="fit-camera" type="button" aria-label="Frame character in the viewport" title="Frame character">⌖</button><button class="stage-rest" id="rest-pose" type="button">Rest pose <span aria-hidden="true">↺</span></button></div></div>
+        <div class="stage-bottom"><div class="preview-status" role="status"><span class="live-dot" aria-hidden="true"></span><span id="stage-status">Preparing studio…</span></div></div>
         <div id="touch-cursor" aria-hidden="true" hidden></div>
         <div id="touch-pad-controls" class="touch-pad-controls" aria-label="Touch controls" hidden>
           <div class="touch-pad-left"><button id="touch-pad" type="button" aria-label="Move touch position" aria-describedby="touch-pad-help"><span class="touch-pad-stick" aria-hidden="true">＋</span></button><span class="touch-pad-label">Move touch</span></div>
@@ -67,29 +99,57 @@
           <span id="touch-feedback" role="status" aria-live="polite">Aim at the character</span>
           <span id="touch-pad-help" class="sr-only">Move the left pad to aim. Hold Press to push inward or Pull to stretch outward; Force adjusts both. With an action button focused, use Space or Enter to hold that action. Arrow keys on the pad or action buttons aim. Escape releases touch.</span>
         </div>
+        <div id="hand-controls" class="hand-controls" aria-label="Touch hand" hidden>
+          <div class="hand-panel">
+            <label class="hand-force" for="hand-force"><span>Force <output id="hand-force-value" for="hand-force">60%</output></span><input id="hand-force" type="range" min="0" max="100" step="5" value="60" aria-label="Touch force for the hand" /></label>
+            <div class="hand-tools" role="radiogroup" aria-label="What the hand does">
+              <button type="button" role="radio" aria-checked="true" data-tool="press" id="hand-tool-press">Press</button>
+              <button type="button" role="radio" aria-checked="false" data-tool="pull" id="hand-tool-pull">Pull</button>
+            </div>
+          </div>
+          <button id="hand-token" class="hand-token" type="button" aria-label="Touch hand. Drag it onto the character and hold to touch; lift your finger to let go. Arrow keys move it, Space or Enter hold." aria-describedby="hand-status"><svg class="icon" aria-hidden="true"><use href="#i-hand"/></svg><span>Drag me</span></button>
+          <span id="hand-status" role="status" aria-live="polite">Drag the hand onto the character</span>
+        </div>
         <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+        <button class="touch-guide" id="touch-guide" type="button" hidden aria-pressed="false"><svg class="icon" aria-hidden="true"><use href="#i-info"/></svg><span>Guide</span></button>
+        <button class="touch-done" id="touch-done" type="button" hidden><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg><span>Done</span></button>
+        <button class="focus-exit" id="focus-exit" type="button" hidden><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg><span>Show panels</span></button>
+        <button class="panel-toggle" id="panel-toggle" type="button" aria-controls="sheet" aria-expanded="true" aria-label="Hide controls" title="Hide controls"><svg class="icon" aria-hidden="true"><use href="#i-panel"/></svg></button>
       </main>
 
-      <aside class="inspector-panel" aria-label="Character controls">
-        <div class="inspector-heading"><span class="eyebrow">THE DETAILS</span><h2>Make it yours.</h2><p class="muted">A little adjustment goes a long way.</p>
-          <label class="quality-control" for="model-quality">Model detail<select id="model-quality" disabled><option value="light">Light · mobile &amp; PC</option><option value="hd">HD · PC · about 25 MB</option></select></label>
-          <p class="quality-detail" id="quality-detail">HD is available for the two ponytail characters.</p>
+      <section class="sheet" id="sheet" aria-label="Controls">
+        <button class="sheet-handle" id="sheet-handle" type="button" aria-label="Resize controls" aria-controls="sheet" aria-expanded="true"><span class="grip" aria-hidden="true"></span></button>
+        <div class="sheet-head"><h2 id="sheet-title">Move</h2><p class="muted" id="sheet-sub">Choose a motion to play.</p></div>
+        <div class="tablist subtabs" id="subtabs" role="tablist" aria-label="Character settings" hidden>
+          <button id="tab-body" class="tab active" role="tab" aria-selected="true" aria-controls="inspector-content" tabindex="0" data-tab="body" type="button">Body</button>
+          <button id="tab-outfit" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="outfit" type="button">Outfit</button>
+          <button id="tab-look" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="look" type="button">Look</button>
+          <button id="tab-physics" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="physics" type="button">Physics</button>
+          <button id="tab-face" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="face" type="button">Face</button>
         </div>
-        <div class="tablist" role="tablist" aria-label="Character settings">
-          <button id="tab-body" class="tab active" role="tab" aria-selected="true" aria-controls="inspector-content" tabindex="0" data-tab="body" type="button"><span aria-hidden="true">◉</span>Body</button>
-          <button id="tab-outfit" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="outfit" type="button"><span aria-hidden="true">◇</span>Outfit</button>
-          <button id="tab-look" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="look" type="button"><span aria-hidden="true">✦</span>Look</button>
-          <button id="tab-motion" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="motion" type="button"><span aria-hidden="true">▷</span>Motion</button>
-          <button id="tab-physics" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="physics" type="button"><span aria-hidden="true">≈</span>Physics</button>
-          <button id="tab-face" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="face" type="button"><span aria-hidden="true">☺</span>Face</button>
-        </div>
-        <div class="inspector-content" id="inspector-content" role="tabpanel" aria-labelledby="tab-body"><p class="empty-copy">Character controls will appear here.</p></div>
-        <div class="inspector-footer"><button id="reset-avatar" class="button button-reset" type="button"><span aria-hidden="true">↺</span> Reset character</button><span>Changes preview instantly</span></div>
-      </aside>
-      <footer class="workspace-footer"><span><span class="footer-dot"></span> AVATAR STUDIO <span class="footer-version">/ WEB EDITION</span></span><span><a href="./THIRD_PARTY_NOTICES.txt" target="_blank" rel="noopener">Credits</a> · Web edition · No audio</span></footer>
+        <div class="inspector-content" id="inspector-content" role="tabpanel" aria-labelledby="sheet-title"><p class="empty-copy">Character controls will appear here.</p></div>
+        <div class="sheet-foot"><button id="reset-avatar" class="button button-reset" type="button"><svg class="icon" aria-hidden="true"><use href="#i-reset"/></svg><span>Reset character</span></button><span>Changes preview instantly</span></div>
+      </section>
     </div>
+
+    <dialog id="picker" class="picker" aria-labelledby="picker-title">
+      <div class="picker-head"><h2 id="picker-title">Choose a character <span class="count-badge">03</span></h2><button id="picker-close" class="button button-quiet" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
+      <div class="avatar-list" role="group" aria-label="Choose a source avatar"></div>
+      <label class="quality-control" for="model-quality">Model detail<select id="model-quality" disabled><option value="light">Light · mobile &amp; PC</option><option value="hd">HD · PC · about 25 MB</option></select></label>
+      <p class="quality-detail" id="quality-detail">HD is available for the two ponytail characters.</p>
+      <details class="reference-section">
+        <summary>Sample images</summary>
+        <div class="reference-grid">
+          <a href="./references/girl.png" target="_blank" rel="noopener" class="reference-card"><img src="./references/girl.png" alt="Target art reference for the female character" /><span>Girl reference</span></a>
+          <a href="./references/boy.png" target="_blank" rel="noopener" class="reference-card"><img src="./references/boy.png" alt="Target art reference for the male character" /><span>Boy reference</span></a>
+        </div>
+        <p class="reference-note">Original concept images. The library includes fitted 3D characters and two face variants to compare.</p>
+      </details>
+      <p class="picker-foot"><a href="./THIRD_PARTY_NOTICES.txt" target="_blank" rel="noopener">Credits</a> · Web edition · No audio</p>
+    </dialog>
+
     <dialog id="studio-settings" class="settings-dialog" aria-labelledby="settings-title" aria-describedby="access-mode">
-      <div class="settings-heading"><h2 id="settings-title">Settings</h2><button id="settings-close" class="button button-quiet" type="button" aria-label="Close settings">Close</button></div>
+      <div class="settings-heading"><h2 id="settings-title">Library access</h2><button id="settings-close" class="button button-quiet" type="button" aria-label="Close settings">Close</button></div>
       <p id="access-mode">Starter demo · three characters · default outfits</p>
       <p class="settings-copy">Original Nabi, Haru, and updated Nabi are available with their default outfits. Body, face, motion, and touch controls work without a code. Enter a full-library code for every character and outfit, PC HD, and GLB import.</p>
       <form id="unlock-form">
@@ -102,6 +162,6 @@
       <p class="settings-copy access-note">This is a demo switch, not secure access protection. The website and its downloadable files remain public.</p>
     </dialog>
     <input type="file" id="avatar-file" accept=".glb,model/gltf-binary" hidden />
-    <input type="file" id="preset-file" accept=".json,application/json" hidden />
+    <input type="file" id="preset-file" accept=".json,application/json" hidden />
   </body>
 </html>

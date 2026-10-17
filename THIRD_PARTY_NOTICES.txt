@@ -160,3 +160,24 @@ Free release 1.1 (downloaded 2026-10-17), CC0 1.0 Universal.
 License: https://creativecommons.org/publicdomain/zero/1.0/
 Selected animations are retargeted and adapted to the studio avatars.
 The original asset archive is not served by this website.
+
+Nunito (interface font, bundled through @fontsource-variable/nunito)
+Copyright 2014 The Nunito Project Authors (https://github.com/googlefonts/nunito). Licensed under the SIL Open Font License, Version 1.1 (https://openfontlicense.org). The font files are bundled with the site; no third-party font service is contacted.
+
+
+Normal locomotion added in the optional activity packs
+---------------------------------------------------
+Normal walk: Quaternius Universal Animation Library Standard, Walk_Loop (CC0).
+https://quaternius.com/packs/universalanimationlibrary.html
+Normal run: Open Motion Project by ACCAD / The Ohio State University,
+Female1_C04_RunToWalk1.bvh, running stride 0.000–0.833 seconds, CC BY 3.0.
+https://accad.osu.edu/research/motion-lab/mocap-system-and-data
+https://creativecommons.org/licenses/by/3.0/
+Changes: retargeted to each avatar, calibrated foot rest frames, looped and made in-place.
+These are distinct clips; the prior Walk/MocapWalk and Run/MocapRun tracks are retained.
+
+Korean gymnast (new character)
+The project authored this fictional adult character with Codex, using the
+existing MakeHuman/MPFB avatar pipeline and generated design references.
+The original source-asset credits above still apply. This is an independent
+stylized 3D interpretation, not a scan or a guaranteed likeness of a real person.
