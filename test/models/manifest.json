@@ -7,6 +7,10 @@
     "bytes": 4725896,
     "sha256": "2930fe7b38a2a1b11b62007dc1ee9a4f9e26ec8a0775116311a4cc54ad9a8598"
   },
+  "codex-jaw-v4-hd.glb": {
+    "bytes": 25059048,
+    "sha256": "4cd9daf80cc72eaa11ef8e4a187a5f4610c1c5e160755161256d0acc1c5ef702"
+  },
   "codex-jaw-v4-light.glb": {
     "bytes": 6746720,
     "sha256": "f8b1e41f806d54237a1b08a3351e8d4f8e1ce30d8786005731873e8c584bbaf0"
@@ -22,6 +26,10 @@
   "girl-game-facerig.glb": {
     "bytes": 6838076,
     "sha256": "cfb85e7d0c59cba55ccf6282613d5b4740b8a13ad8c2e3b55f978e40d35702f2"
+  },
+  "girl-game-hd-facerig.glb": {
+    "bytes": 25337112,
+    "sha256": "5369654068f88a124e55d8b08e420d8de574c83b95781494ffaf26a1034d7912"
   },
   "girl-game-style.glb": {
     "bytes": 6029764,

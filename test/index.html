@@ -6,14 +6,14 @@
     <meta name="theme-color" content="#202024" />
     <title>Avatar Studio — dance test</title>
     <meta name="description" content="A browser character workspace for shaping avatars, exploring outfits, and previewing motion." />
-    <script type="module" crossorigin src="./assets/index-BF8Hmo2W.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-QeGaIffx.css">
+    <script type="module" crossorigin src="./assets/index-CKCb6693.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-CtRFhhoF.css">
   </head>
   <body>
     <div class="studio-shell">
       <header class="topbar">
         <a class="brand" href="./" aria-label="Avatar Studio home"><span class="brand-mark" aria-hidden="true">a<span>·</span></span><span>Avatar Studio<small>DANCE TEST · OCT 2026</small></span></a>
-        <div class="topbar-meta"><span class="live-dot" aria-hidden="true"></span> Test version · light models</div>
+        <div class="topbar-meta"><span class="live-dot" aria-hidden="true"></span> Test version · Light + PC HD</div>
         <div class="topbar-actions">
           <details class="file-menu" id="file-menu">
             <summary class="button button-quiet">Presets <span aria-hidden="true">⌄</span></summary>
@@ -84,7 +84,10 @@
       </main>
 
       <aside class="inspector-panel" aria-label="Character controls">
-        <div class="inspector-heading"><span class="eyebrow">THE DETAILS</span><h2>Make it yours.</h2><p class="muted">A little adjustment goes a long way.</p></div>
+        <div class="inspector-heading"><span class="eyebrow">THE DETAILS</span><h2>Make it yours.</h2><p class="muted">A little adjustment goes a long way.</p>
+          <label class="quality-control" for="model-quality">Model detail<select id="model-quality" disabled><option value="light">Light · mobile &amp; PC</option><option value="hd">HD · PC · about 25 MB</option></select></label>
+          <p class="quality-detail" id="quality-detail">HD is available for the two ponytail characters.</p>
+        </div>
         <div class="tablist" role="tablist" aria-label="Character settings">
           <button id="tab-body" class="tab active" role="tab" aria-selected="true" aria-controls="inspector-content" tabindex="0" data-tab="body" type="button"><span aria-hidden="true">◉</span>Body</button>
           <button id="tab-outfit" class="tab" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" data-tab="outfit" type="button"><span aria-hidden="true">◇</span>Outfit</button>
