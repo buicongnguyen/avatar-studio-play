@@ -152,3 +152,11 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+
+KayKit Character Animations — Kay Lousberg
+Source: https://kaylousberg.itch.io/kaykit-character-animations
+Free release 1.1 (downloaded 2026-10-17), CC0 1.0 Universal.
+License: https://creativecommons.org/publicdomain/zero/1.0/
+Selected animations are retargeted and adapted to the studio avatars.
+The original asset archive is not served by this website.
