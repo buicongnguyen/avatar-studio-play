@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "53b8b688e0006e32a64ed4cc9712d3843f8c752d",
-  "builtAt": "2026-10-17T20:37:33.846127+00:00",
+  "sourceCommit": "44dfff0ee629119d93e39346d782c7f673264903",
+  "builtAt": "2026-10-17T22:46:24.464507+00:00",
   "rootRelease": true,
   "features": [
+    "Paired Life: independently fitted hug, kiss and hug-and-kiss sessions with shared entry, hold, release and exit",
     "Picture mode: ten held poses, temporary expressions, camera restoration and PNG capture",
     "Life: solo kiss and hug invitations, connected floor rest and recovery",
     "Temporary Life facial cues preserve saved expressions",

@@ -293,3 +293,14 @@ ReactionSeated pose. No external motion capture, photographic asset, or new
 character geometry is bundled by this addition. Existing avatar/model asset
 licences remain applicable. Authoring code, exact source hashes and measurements:
 tools/photo-poses/. Each motion carries provenance in its extras.
+
+
+Paired Life sessions (2026-10-18)
+- Pair-specific hugging/kissing pose fitting, synchronized entry/hold/exit,
+  temporary facial cues, session controller and UI: project-authored code.
+- Pose seeds reuse the project's Photo and Reaction libraries and its Life floor
+  family. The KayKit CC0 timing reference for the floor family is credited above.
+- No new downloaded character, music, speech recording, or motion capture is
+  introduced. Existing avatar and asset licences remain applicable.
+- Generated pair clips belong to the preview session; normal GLB export remains
+  primary-avatar only. Rebuild and validation: tools/partner-life*/.

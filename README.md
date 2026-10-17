@@ -8,6 +8,7 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 
 ## Try this update
 
+- **Play → Paired Life:** choose an unlocked partner (including duplicates or PC HD), then Hug, Kiss or Hug-and-kiss, posture and standing arm arrangement. Floor poses keep fixed supporting arms. Side-lying requires original hair without glasses or a headband. Start fits the current pair; contact holds until Release. Pause, Reset and End control both actors. End restores your previous motion, camera and face preferences. An unsupported fit reports a reason. Phone controls keep the pair visible; screenshots include both.
 - **Shots → Enter Picture mode:** hold the current frame or choose one of ten standing/seated poses. Pick a temporary expression, adjust the camera and Save picture. Return to motion restores the previous clip/time/play state and camera; body/outfit/makeup edits remain. Pose packs download on demand, and no saved face setting is overwritten.
 - **Move → Life:** load solo kiss/hug invitations and floor rest motions. The connected floor rest sequence lies down, rests on the back and both sides, and stands up. Sleep closes supported eyelids; kiss gestures temporarily shape the lips. Your saved face settings return afterward. The body works on Original Nabi, whose face lacks these controls.
 - **Move → Dance → Load dance styles:** belly, box step, ballet-influenced turn, upright breaking, clothed burlesque-inspired flourish, contemporary reach, solo tango and flamenco-inspired steps. **Combat → Load martial arts:** boxing, Taekwondo-style, Muay Thai-style, solo Judo entry and sword actions. **Hit reactions:** regional recoils and a supported backward sit/recovery chain. All are optional animation-only downloads.
@@ -20,13 +21,15 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 - **Settings → Face:** Cheek fullness, Lip lick and Blow air on the eleven anatomical rigs. The new shape persists while expressions play; short face actions return to your chosen expression.
 - **Settings → Body → Bust & chest:** Bust firm and Bust shape reach +150% of their authored morph displacement. Existing saved values retain their previous effect. This does not mean body dimensions grow by150%.
 - Combat kicks have corrected knee/ankle orientation. Several older raised-foot motions and the backflip landing use precomputed repairs; intentional high-flight/inverted pointing is preserved.
-- Anatomical mouths use a matte dark-pink cavity and reduced reflections on tongue/teeth.
+- Anatomical mouths use a matte dark-pink cavity and reduced reflections on tongue/teeth. A guarded Asian-male/lean cavity-floor correction removes the pink chin patch seen during kissing head tilts; extreme head-down plus maximum open jaw retains an older anatomy limitation.
 
 Existing content remains: 15 combat actions including left/right slaps, two flips, gym/everyday actions, Normal walk/run, playlists, scrub, 23 expression presets on full face rigs, silent video, touch pad and Grab & move controls. Original Nabi/Haru expose only the controls their rigs support.
 
 The Korean gymnast has Light (39,496 triangles,7.03MB) and PC HD (142,728 triangles,23.75MB) tiers. Optional motion packs download for the selected avatar; they add animation tracks, not new character geometry. Phone performance depends on the device and selected tier.
 
 ## Known limits
+
+Paired Life offers nine action/posture combinations using bounded pair-specific fitting and authored motion, not nine captured clips or complete body/clothing physics. Seated and side-lying Kiss/Hug-and-kiss share a body pose. Initial fitting can take seconds to tens of seconds on Light and several minutes for some HD poses; it can be cancelled, and Replay reuses accepted fitting. Raised-arm floor poses can expose substantial skin-through-clothing at the shoulder/collar, especially on the male tee. Side-lying rejects alternate rigid hairstyles, glasses and headbands until their contact is supported; saved appearance is preserved. The player keeps current proportions; the independently loaded partner uses its default outfit/profile. Large edits can be unsupported. Saved face settings are preserved, and original Nabi only receives facial channels its rig supports. Pair clips and the NPC are preview state, excluded from normal primary-avatar GLB export. Phone validation uses browser emulation.
 
 Picture poses are static default-shape fits with shared-finger and rigid-clothing limits. Photo expressions are preview overrides, not baked GLB facial clips. Imported GLBs without compatible Photo clips can still hold the current frame. Phone checks use emulation; real-device checks remain.
 
