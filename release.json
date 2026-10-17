@@ -1,8 +1,12 @@
 {
-  "sourceCommit": "d2c7e4779960da0c3fd5b3bab24bd96608369812",
-  "builtAt": "2026-10-17T18:26:37.575794+00:00",
+  "sourceCommit": "9e71360418e30c052c20c936c327fdcd2a3ed4eb",
+  "builtAt": "2026-10-17T18:49:23.611240+00:00",
   "rootRelease": true,
   "features": [
+    "Muscle fullness and torso/leg balance",
+    "Fitted tops, shirt length, support layer and padding",
+    "Verified sneakers, socks and barefoot",
+    "Stronger Press/Pull 1-10 gain with region caps and shared skin/cloth response",
     "Face shape: lips, nose, eye width/opening/depth and independent jaw width/roundness",
     "Persistent cheek/lip makeup and iris colors",
     "Glasses, headband, short and bob hairstyles",

@@ -8,6 +8,8 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 
 ## Try this update
 
+- **Settings → Body:** independent Muscle fullness, Torso/Leg length, and a longer-legs/shorter-torso preset. **Outfit:** fitted tops and sport shorts, shirt length, opaque sport bra/optional support layer, padding, and sneakers/socks/barefoot on audited anatomical rigs. Default public wardrobe restrictions remain.
+- **Play → Touch strength:** 1–10 gain, default4, with region caps. Strong touches carry nearby skin and clothing together. At higher settings the touch area expands after depth reaches its limit.
 - **Settings → Face:** seven face-shape controls, cheek fullness up to 200%, persistent cheek/lip colors and iris color. Independent jaw width/roundness avoids forcing a pointed chin; eye-socket depth is a small signed adjustment. Glasses, headbands and original/short/bob hairstyles can be combined on the anatomical avatars. Original Nabi/Haru retain their supported controls. Built-in mouth lining is now matte dark pink.
 - **Play → Two-person practice → Practice partner:** your current character faces Haru Light. Low or High kick reacts only on contact; Haru recoils into sitting. Stand up recovers, Reset restarts. Partner distance tests hits and misses. Phones enter a full-stage view with Controls/Practice view and End practice buttons.
 - **Move → Dance → Load more dances:** captured Salsa, K-pop Magnetic and Roly Poly, YMCA-style gestures, Robot dance, and original Trump-style/Musk-style inspired loops. The three captured phrases play once and retain their travel. No music is included; inspired loops are not actual public-figure captures.
@@ -15,7 +17,7 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 - **Settings → Face:** Cheek fullness, Lip lick and Blow air on the eleven anatomical rigs. The new shape persists while expressions play; short face actions return to your chosen expression.
 - **Settings → Body → Bust & chest:** Bust firm and Bust shape reach +150% of their authored morph displacement. Existing saved values retain their previous effect. This does not mean body dimensions grow by150%.
 - Combat kicks have corrected knee/ankle orientation. Several older raised-foot motions and the backflip landing use precomputed repairs; intentional high-flight/inverted pointing is preserved.
-- Anatomical mouths use a darker cavity and reduced reflections on tongue/teeth.
+- Anatomical mouths use a matte dark-pink cavity and reduced reflections on tongue/teeth.
 
 Existing content remains: 15 combat actions including left/right slaps, two flips, gym/everyday actions, Normal walk/run, playlists, scrub, 23 expression presets on full face rigs, silent video, touch pad and Grab & move controls. Original Nabi/Haru expose only the controls their rigs support.
 
