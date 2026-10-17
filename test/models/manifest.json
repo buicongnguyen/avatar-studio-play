@@ -1,11 +1,11 @@
 {
   "boy-asian-lite.glb": {
-    "bytes": 4767896,
-    "sha256": "0fb41a1eb1a6c87385a75fc1b0ad96d30d6342403d00e12ad1ece58642bb2318"
+    "bytes": 5550864,
+    "sha256": "f165d4089d77ff5579ca5cf042bddcd6a5946adabd163b48571afb51025229a9"
   },
   "boy-blond-lite.glb": {
-    "bytes": 4725896,
-    "sha256": "2930fe7b38a2a1b11b62007dc1ee9a4f9e26ec8a0775116311a4cc54ad9a8598"
+    "bytes": 5405836,
+    "sha256": "cae4b84eb32350364a856840ae90e1bb6e0c3f88eb68d9a67bfb1330848fcd02"
   },
   "codex-jaw-v4-hd.glb": {
     "bytes": 25059048,
@@ -16,12 +16,12 @@
     "sha256": "f8b1e41f806d54237a1b08a3351e8d4f8e1ce30d8786005731873e8c584bbaf0"
   },
   "girl-asian-lite.glb": {
-    "bytes": 4488468,
-    "sha256": "42942f315d0d345ae0e553cf429201d896c8762f92d6eaa20f4a6b6efecd9ba0"
+    "bytes": 4994860,
+    "sha256": "63e02f03de0684d21d3e86db53df4cfd8d18715b1978de254a28f3f94143c359"
   },
   "girl-blonde-lite.glb": {
-    "bytes": 4814528,
-    "sha256": "35cb71fe0515ea556edaefe8ec4db05f2740d0e480c2c8b00160e9e3bf593aea"
+    "bytes": 5341608,
+    "sha256": "08735b2eddb9bb5902f6db383d528aae7f1735f2a94fabd8033cb106bebad275"
   },
   "girl-game-facerig.glb": {
     "bytes": 6838076,
@@ -36,12 +36,12 @@
     "sha256": "f65b82a967a5a64b113cd1c80b67ce20f52ea3f49b98472f91f6e81918944a17"
   },
   "haru.glb": {
-    "bytes": 3344464,
-    "sha256": "411d256944cf6897914ab8ad11806e34f8b8dc1802b4961e0a04788f380352f5"
+    "bytes": 3413172,
+    "sha256": "286a89fa74013e050341b00d358f0810aae6cf046ad14d8d00ab888921c94dec"
   },
   "nabi-v2.glb": {
-    "bytes": 4773772,
-    "sha256": "a4e422db8935bc68c649102b686591e81114d7b088514eaa2634b5086810928b"
+    "bytes": 7239620,
+    "sha256": "377df56078d5642dc77b5ee95ea7e1617991515cabf5c9318810a434c517de14"
   },
   "nabi.glb": {
     "bytes": 3032136,
