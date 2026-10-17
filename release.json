@@ -1,6 +1,6 @@
 {
-  "sourceCommit": "a7e20775fc395ed5daedf4647ca0adbde3649f39",
-  "builtAt": "2026-10-17T20:17:50.313211+00:00",
+  "sourceCommit": "04c58528d325897300530ec3ab5f641ef994eb5d",
+  "builtAt": "2026-10-17T20:35:35.402339+00:00",
   "rootRelease": true,
   "features": [
     "Picture mode: ten held poses, temporary expressions, camera restoration and PNG capture",
@@ -19,7 +19,7 @@
     "Glasses, headband, short and bob hairstyles",
     "Matte dark-pink mouth lining",
     "Lean adult Asian man profile matching Ponytail height",
-    "Two-person practice: low/high kick, contact detection, recoil-to-sit and recovery",
+    "Any-avatar partners, punches/kicks/slaps, regional contact, recoil or fall, recovery and optional local voice",
     "K-pop Magnetic and Roly Poly",
     "Captured Salsa and relabelled legacy sway",
     "Original Trump-style and Musk-style inspired dance loops",

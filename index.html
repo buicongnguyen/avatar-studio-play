@@ -15,8 +15,8 @@
     </script>
     <title>Avatar Studio</title>
     <meta name="description" content="A browser character workspace for shaping avatars, exploring outfits, and previewing motion." />
-    <script type="module" crossorigin src="./assets/index-CrnRWecI.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CSl_cZBE.css">
+    <script type="module" crossorigin src="./assets/index-Cq5zLQKD.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-D5uYqsUJ.css">
   </head>
   <body>
     <svg class="sprite" aria-hidden="true" focusable="false">
@@ -40,7 +40,7 @@
 
     <div class="app" id="app" data-mode="move" data-sheet="half" data-drawer="open" data-focus="off">
       <header class="topbar">
-        <a class="brand" href="./" aria-label="Avatar Studio home"><span class="brand-mark" aria-hidden="true">a<span>·</span></span><span class="brand-name">Avatar Studio</span></a>
+        <a class="brand" href="./" aria-label="Avatar Studio home"><span class="brand-mark" aria-hidden="true">a<span>Â·</span></span><span class="brand-name">Avatar Studio</span></a>
         <button class="who" id="picker-open" type="button" aria-haspopup="dialog" aria-label="Choose a character">
           <span class="who-thumb" id="who-thumb" aria-hidden="true"></span>
           <span class="who-text"><small>Character</small><strong id="avatar-name">Nabi</strong></span>
@@ -87,11 +87,11 @@
           <button class="tool" id="focus-enter" type="button" aria-label="Focus on the character" title="Focus: hide all panels"><svg class="icon" aria-hidden="true"><use href="#i-focus"/></svg></button>
         </div>
         <div class="stage-loading" id="stage-loading"><div class="loading-ring"></div><p>Preparing your workspace<span>Loading the character and its motions</span></p></div>
-        <div class="quick-motion" aria-label="Quick action controls"><button id="quick-play" type="button" aria-label="Pause dance" disabled>Ⅱ Pause</button><select id="quick-dance" aria-label="Action shortcut" disabled><option value="">Choose an action</option></select></div>
-        <div class="stage-bottom"><div class="preview-status" role="status"><span class="live-dot" aria-hidden="true"></span><span id="stage-status">Preparing studio…</span></div></div>
+        <div class="quick-motion" aria-label="Quick action controls"><button id="quick-play" type="button" aria-label="Pause dance" disabled>â…¡ Pause</button><select id="quick-dance" aria-label="Action shortcut" disabled><option value="">Choose an action</option></select></div>
+        <div class="stage-bottom"><div class="preview-status" role="status"><span class="live-dot" aria-hidden="true"></span><span id="stage-status">Preparing studioâ€¦</span></div></div>
         <div id="touch-cursor" aria-hidden="true" hidden></div>
         <div id="touch-pad-controls" class="touch-pad-controls" aria-label="Touch controls" hidden>
-          <div class="touch-pad-left"><button id="touch-pad" type="button" aria-label="Move touch position" aria-describedby="touch-pad-help"><span class="touch-pad-stick" aria-hidden="true">＋</span></button><span class="touch-pad-label">Move touch</span></div>
+          <div class="touch-pad-left"><button id="touch-pad" type="button" aria-label="Move touch position" aria-describedby="touch-pad-help"><span class="touch-pad-stick" aria-hidden="true">ï¼‹</span></button><span class="touch-pad-label">Move touch</span></div>
           <div class="touch-pad-right">
             <div class="touch-action-buttons"><button id="touch-press" type="button" aria-label="Hold to press the character" aria-pressed="false" aria-describedby="touch-pad-help">Press</button><button id="touch-pull" type="button" aria-label="Hold to pull the character" aria-pressed="false" aria-describedby="touch-pad-help">Pull</button></div>
             <label class="touch-force-control" for="touch-force"><span>Force <output id="touch-force-value" for="touch-force">60%</output></span><input id="touch-force" type="range" min="0" max="100" step="5" value="60" aria-label="Touch force for press and pull" /></label>
@@ -135,7 +135,7 @@
     <dialog id="picker" class="picker" aria-labelledby="picker-title">
       <div class="picker-head"><h2 id="picker-title">Choose a character <span class="count-badge">03</span></h2><button id="picker-close" class="button button-quiet" type="button" aria-label="Close"><svg class="icon" aria-hidden="true"><use href="#i-close"/></svg></button></div>
       <div class="avatar-list" role="group" aria-label="Choose a source avatar"></div>
-      <label class="quality-control" for="model-quality">Model detail<select id="model-quality" disabled><option value="light">Light · mobile &amp; PC</option><option value="hd">HD · PC · about 25 MB</option></select></label>
+      <label class="quality-control" for="model-quality">Model detail<select id="model-quality" disabled><option value="light">Light Â· mobile &amp; PC</option><option value="hd">HD Â· PC Â· about 25 MB</option></select></label>
       <p class="quality-detail" id="quality-detail">HD is available for supported characters.</p>
       <details class="reference-section">
         <summary>Sample images</summary>
@@ -145,12 +145,12 @@
         </div>
         <p class="reference-note">Original concept images. The library includes fitted 3D characters and two face variants to compare.</p>
       </details>
-      <p class="picker-foot"><a href="./THIRD_PARTY_NOTICES.txt" target="_blank" rel="noopener">Credits</a> · Web edition · No audio</p>
+      <p class="picker-foot"><a href="./THIRD_PARTY_NOTICES.txt" target="_blank" rel="noopener">Credits</a> Â· Web edition Â· No audio</p>
     </dialog>
 
     <dialog id="studio-settings" class="settings-dialog" aria-labelledby="settings-title" aria-describedby="access-mode">
       <div class="settings-heading"><h2 id="settings-title">Library access</h2><button id="settings-close" class="button button-quiet" type="button" aria-label="Close settings">Close</button></div>
-      <p id="access-mode">Starter demo · three characters · default outfits</p>
+      <p id="access-mode">Starter demo Â· three characters Â· default outfits</p>
       <p class="settings-copy">Original Nabi, Haru, and updated Nabi are available with their default outfits. Body, face, motion, and touch controls work without a code. Enter a full-library code for every character and outfit, PC HD, and GLB import.</p>
       <form id="unlock-form">
         <label for="demo-code">Library code</label>
