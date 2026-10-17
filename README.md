@@ -8,6 +8,7 @@ Start with updated Nabi, Nabi original, or Haru. Access code `buicongnguyen` unl
 
 ## Try this update
 
+- **Shots → Enter Picture mode:** hold the current frame or choose one of ten standing/seated poses. Pick a temporary expression, adjust the camera and Save picture. Return to motion restores the previous clip/time/play state and camera; body/outfit/makeup edits remain. Pose packs download on demand, and no saved face setting is overwritten.
 - **Move → Life:** load solo kiss/hug invitations and floor rest motions. The connected floor rest sequence lies down, rests on the back and both sides, and stands up. Sleep closes supported eyelids; kiss gestures temporarily shape the lips. Your saved face settings return afterward. The body works on Original Nabi, whose face lacks these controls.
 - **Move → Dance → Load dance styles:** belly, box step, ballet-influenced turn, upright breaking, clothed burlesque-inspired flourish, contemporary reach, solo tango and flamenco-inspired steps. **Combat → Load martial arts:** boxing, Taekwondo-style, Muay Thai-style, solo Judo entry and sword actions. **Hit reactions:** regional recoils and a supported backward sit/recovery chain. All are optional animation-only downloads.
 - **Settings → Body:** independent Muscle fullness, Torso/Leg length, and a longer-legs/shorter-torso preset. **Outfit:** fitted tops and sport shorts, shirt length, opaque sport bra/optional support layer, padding, and sneakers/socks/barefoot on audited anatomical rigs. Default public wardrobe restrictions remain.
@@ -26,6 +27,8 @@ Existing content remains: 15 combat actions including left/right slaps, two flip
 The Korean gymnast has Light (39,496 triangles,7.03MB) and PC HD (142,728 triangles,23.75MB) tiers. Optional motion packs download for the selected avatar; they add animation tracks, not new character geometry. Phone performance depends on the device and selected tier.
 
 ## Known limits
+
+Picture poses are static default-shape fits with shared-finger and rigid-clothing limits. Photo expressions are preview overrides, not baked GLB facial clips. Imported GLBs without compatible Photo clips can still hold the current frame. Phone checks use emulation; real-device checks remain.
 
 Life floor poses are fitted at default shapes/outfits. Small legacy hair/garment seam intersections remain (up to about5.6mm), and the largest hand residual is about1.2mm. Rest holds are static; rigid hair and skirts can clump or crease. Use the connected sequence for entry/exit.
 New style routines are short authored/adapted previews; only the two identified new dance phrases are captured. Breaking is upright top-rock and tango/Judo are solo. Supported falls end sitting, not in a ragdoll. Shared finger joints limit fist detail; the legacy Nabi skirt stays elevated when seated and a sleeve can dip about4mm into the floor. Full-trajectory framing can make travelling routines small on phones.

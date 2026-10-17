@@ -285,3 +285,11 @@ Life motion expansion (2026-10-18)
   Build metadata and measurements: tools/life-gestures/ in the source repository.
 - Temporary Life facial cues and posed floor camera framing: project-authored code.
   Face timing metadata is not baked glTF morph animation.
+
+
+Picture pose library (Photo*): original project-authored static skeletal poses,
+fitted to each supplied avatar rig. Seated variants derive the project's
+ReactionSeated pose. No external motion capture, photographic asset, or new
+character geometry is bundled by this addition. Existing avatar/model asset
+licences remain applicable. Authoring code, exact source hashes and measurements:
+tools/photo-poses/. Each motion carries provenance in its extras.

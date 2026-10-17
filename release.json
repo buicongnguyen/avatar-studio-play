@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "fdfd7b90595bca8838bc645c90548bf25f002bc1",
-  "builtAt": "2026-10-17T19:56:30.607754+00:00",
+  "sourceCommit": "a7e20775fc395ed5daedf4647ca0adbde3649f39",
+  "builtAt": "2026-10-17T20:17:50.313211+00:00",
   "rootRelease": true,
   "features": [
+    "Picture mode: ten held poses, temporary expressions, camera restoration and PNG capture",
     "Life: solo kiss and hug invitations, connected floor rest and recovery",
     "Temporary Life facial cues preserve saved expressions",
     "Eight expanded dance styles: six authored and two CMU captures",
