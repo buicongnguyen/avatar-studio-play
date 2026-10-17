@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "c144868cb22c670ebc0552ab433cac42102f62be",
-  "builtAt": "2026-10-17T17:10:03.699929+00:00",
+  "sourceCommit": "70df46ba4961ca06e7734d32705547ac92da0f1f",
+  "builtAt": "2026-10-17T17:33:12.514977+00:00",
   "rootRelease": true,
   "features": [
+    "Two-person practice: low/high kick, contact detection, recoil-to-sit and recovery",
     "K-pop Magnetic and Roly Poly",
     "Captured Salsa and relabelled legacy sway",
     "Original Trump-style and Musk-style inspired dance loops",
