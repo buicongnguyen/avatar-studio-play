@@ -214,3 +214,30 @@ The captured tuck, inversion and root travel are retained.
 YMCA-style letter gestures and Robot dance are original project-authored
 human animation loops. No commercial music, Unitree choreography/policy,
 or robot hardware assets are bundled with these loops.
+
+
+Captured Salsa and provider K-pop sequences (2026-10-18)
+-----------------------------------------------------
+Salsa: CMU Graphics Lab Motion Capture Database, subject60 take02,
+3-15second active phrase, original60FPS resampled to30FPS.
+Data obtained from mocap.cs.cmu.edu. Database created with funding from NSF EIA-0196217.
+Source: https://mocap.cs.cmu.edu/search.php?subjectnumber=60
+Terms: https://mocap.cs.cmu.edu/
+Free reuse including commercial inclusion; no direct resale of motion data,
+including converted forms. Not CC0. Retargeted, support-calibrated and reframed.
+The old CMU61_01 quiet introductory cycle is retained as Dance sway - legacy.
+
+K-pop Magnetic and Roly Poly: GetBVH motion library.
+Source: https://www.getbvh.com/
+Terms: https://www.getbvh.com/terms (checked2026-10-18)
+The provider permits personal/commercial use and adaptation; do not sell its
+assets as-is. These motion files are retargeted for this interactive avatar demo.
+Changes: exact-bind retargeting, support calibration, virtual head-tip correction,
+and short local quaternion interpolation at source arm discontinuities.
+No music, source video, official artist performance or verified optical capture
+claim. The provider does not identify the performer or acquisition method.
+Exact source URLs and hashes are carried in the animation metadata.
+
+Trump-style fist pump and Musk-style shuffle are original project-authored
+inspired gesture loops, not captures or official performances. No outside
+video, music or public-figure character asset is included.
