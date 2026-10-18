@@ -161,3 +161,6 @@ Play Single offers an optional Torso spring demo for Korean gymnast Lite with he
 
 ## Lite overarm throw preview
 Move > Sports offers one original overarm throw for Korean gymnast Lite in her default body and outfit. Its 25KB motion pack loads on request, and an illustrative ball follows clip time through held and released phases. The ball is preview-only; the reviewed animation is included in both exports for its qualified profile. Imported animations remain ordinary clips even if they share the Sports name. Chest pass and male throw candidates failed contact checks and are not included.
+
+## Measured side-rest bed poses
+Move > Life > Bed pose now offers Back rest, Left side and Right side for original Ponytail Lite. Each static pose uses measured mattress and pillow support, preserves the authored joints and retains the original body/outfit requirement. Exit restores the prior camera and motion. Both GLB exports preserve all original clips and omit the bed preview. Arbitrary arm/leg composition, crawling and bed entry remain unfinished.

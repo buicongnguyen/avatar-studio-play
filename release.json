@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "4847072e0af3a6e014d343100e57b18f966565db",
-  "builtAt": "2026-10-18T14:01:17.380192+00:00",
+  "sourceCommit": "90d29a8eda70880f00973a36e0302203799f9a45",
+  "builtAt": "2026-10-18T14:14:57.061360+00:00",
   "rootRelease": true,
   "features": [
+    "Move > Life > Bed pose now offers Back rest, Left side and Right side for original Ponytail Lite. Each static pose uses measured mattress and pillow support, preserves the authored joints and retains the original body/outfit requirement. Exit restores the prior camera and motion. Both GLB exports preserve all original clips and omit the bed preview. Arbitrary arm/leg composition, crawling and bed entry remain unfinished.",
     "Move > Sports offers one original overarm throw for Korean gymnast Lite in her default body and outfit. Its 25KB motion pack loads on request, and an illustrative ball follows clip time through held and released phases. The ball is preview-only; the reviewed animation is included in both exports for its qualified profile. Imported animations remain ordinary clips even if they share the Sports name. Chest pass and male throw candidates failed contact checks and are not included.",
     "Play Single offers an optional Torso spring demo for Korean gymnast Lite with her default body and outfit. Separate 0\u20130.16 N Press/Pull controls drive one reviewed torso patch while Idle is paused, with a maximum generalized amplitude of4mm. Release springs back and Done restores the previous scene. Existing visual touch stays available; both GLB exports retain source geometry and motions and label the spring preview-only. This is not whole-body tissue or arbitrary-contact physics.",
     "Move > Life offers a static back-rest bed preview for Ponytail Lite in her original body and outfit. A measured pillow supports the visible hair, the lying avatar is framed around controls, and Exit restores the previous motion and camera. Bed and temporary pose are excluded from both GLB exports. Other avatars, pose combinations, relaxed hands, crawling and bed transitions are not yet supported.",
@@ -82,5 +83,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "N-D1"
+  "checkpoint": "N-C2"
 }
