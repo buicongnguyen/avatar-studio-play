@@ -1,8 +1,11 @@
 {
-  "sourceCommit": "44dfff0ee629119d93e39346d782c7f673264903",
-  "builtAt": "2026-10-17T22:46:24.464507+00:00",
+  "sourceCommit": "04f775bc156b73945708baf37002c3f6d76cf12f",
+  "builtAt": "2026-10-18T02:48:43.734519+00:00",
   "rootRelease": true,
   "features": [
+    "Play Single and Play Multiple with explicit Combat/Life scenarios and safe pending-session cancellation",
+    "Visible wrapped Move Life category and shortcuts to paired scenarios",
+    "Calibrated eight-joint audit on both actors with a bounded airborne Combat knee guard",
     "Paired Life: independently fitted hug, kiss and hug-and-kiss sessions with shared entry, hold, release and exit",
     "Picture mode: ten held poses, temporary expressions, camera restoration and PNG capture",
     "Life: solo kiss and hug invitations, connected floor rest and recovery",

@@ -15,11 +15,12 @@
     </script>
     <title>Avatar Studio</title>
     <meta name="description" content="A browser character workspace for shaping avatars, exploring outfits, and previewing motion." />
-    <script type="module" crossorigin src="./assets/index-CueL8wrd.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-Ca-pHHWb.css">
+    <script type="module" crossorigin src="./assets/index-DTxeC90A.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-Cr0a89Pz.css">
   </head>
   <body>
     <svg class="sprite" aria-hidden="true" focusable="false">
+      <symbol id="i-people" viewBox="0 0 24 24"><circle cx="8" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M2 21v-3a6 6 0 0 1 12 0v3M15 15a5 5 0 0 1 7 4v2"/></symbol>
       <symbol id="i-play" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M8 14.2c1 1.6 2.3 2.4 4 2.4s3-.8 4-2.4"/><circle cx="9" cy="10" r=".9" fill="currentColor" stroke="none"/><circle cx="15" cy="10" r=".9" fill="currentColor" stroke="none"/></symbol>
       <symbol id="i-move" viewBox="0 0 24 24"><circle cx="12" cy="4.5" r="2.2"/><path d="M12 7v6M6.5 9.5 12 8l5.5 1.5M12 13l-4 7M12 13l4 7"/></symbol>
       <symbol id="i-settings" viewBox="0 0 24 24"><path d="M4 7h9M17 7h3M4 17h3M11 17h9"/><circle cx="15" cy="7" r="2"/><circle cx="9" cy="17" r="2"/></symbol>
@@ -68,7 +69,8 @@
       </header>
 
       <nav class="dock" id="dock" role="tablist" aria-label="Studio sections">
-        <button class="dock-item" data-mode="play" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span>Play</span></button>
+        <button class="dock-item" data-mode="single" role="tab" aria-label="Play Single" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-play"/></svg><span>Play<br>Single</span></button>
+        <button class="dock-item" data-mode="multiple" role="tab" aria-label="Play Multiple" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-people"/></svg><span>Play<br>Multiple</span></button>
         <button class="dock-item" data-mode="move" role="tab" aria-selected="true" aria-controls="inspector-content" tabindex="0" type="button"><svg class="icon" aria-hidden="true"><use href="#i-move"/></svg><span>Move</span></button>
         <button class="dock-item" data-mode="settings" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-settings"/></svg><span>Settings</span></button>
         <button class="dock-item" data-mode="shots" role="tab" aria-selected="false" aria-controls="inspector-content" tabindex="-1" type="button"><svg class="icon" aria-hidden="true"><use href="#i-shots"/></svg><span>Shots</span></button>
@@ -163,5 +165,6 @@
     </dialog>
     <input type="file" id="avatar-file" accept=".glb,model/gltf-binary" hidden />
     <input type="file" id="preset-file" accept=".json,application/json" hidden />
+
   </body>
 </html>
