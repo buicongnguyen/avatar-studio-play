@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "17a4bebfd650094e12676661d44e13b1ed82e461",
-  "builtAt": "2026-10-18T06:52:16.095970+00:00",
+  "sourceCommit": "b506782d42d1c9c46cbb081d35091ba19f977e8d",
+  "builtAt": "2026-10-18T06:56:00.370336+00:00",
   "rootRelease": true,
   "features": [
+    "Original Nabi and Haru now have a source-specific correction to a short excessive foot twist in Magnetic, with false near-ground support flags removed. The authored sole tilt, ankle path, planted poses and other clips are preserved.",
     "Modern Lite Child pose keeps palms flat and wrists connected. A bounded, restored preview correction maintains hand support for tested body settings; authored arm changes export normally. Other clips, native rigs and full-HD assets remain unchanged.",
     "Shots now includes a Godot import helper that preserves customized morph defaults, including negative body settings. Three representative Lite exports were verified in native Godot runtime and editor imports. The included guide describes animation-optimization tradeoffs and app-only behavior that is not exported.",
     "Supported Lite standing hugs use calibrated arm frames and checked surface clearance. Fitting runs in a worker with progress, cancellation and repeat-pair caching. Unsupported or infeasible pairs are rejected with an explanation; this is not general whole-body collision simulation.",
@@ -56,5 +57,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4a-child"
+  "checkpoint": "C1b"
 }

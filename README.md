@@ -83,3 +83,6 @@ Shots now includes a Godot import helper that preserves customized morph default
 
 ## Child pose palm and wrist repair
 Modern Lite Child pose keeps palms flat and wrists connected. A bounded, restored preview correction maintains hand support for tested body settings; authored arm changes export normally. Other clips, native rigs and full-HD assets remain unchanged.
+
+## Magnetic foot heading correction
+Original Nabi and Haru now have a source-specific correction to a short excessive foot twist in Magnetic, with false near-ground support flags removed. The authored sole tilt, ankle path, planted poses and other clips are preserved.
