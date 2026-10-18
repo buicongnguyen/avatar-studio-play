@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "5c810f67c11f8d06679af5e6247b6d8805492a6c",
-  "builtAt": "2026-10-18T05:48:09.521180+00:00",
+  "sourceCommit": "4ef06a15ed9c22f093ebba85603e8d074e4404b4",
+  "builtAt": "2026-10-18T06:08:02.685814+00:00",
   "rootRelease": true,
   "features": [
+    "Robot dance uses relaxed forearm-relative palms on eight modern Lite rigs, with neutral hands clear of the thighs. The original raised-shoulder poses and short staccato timing are retained. Other clips, legs and HD assets are unchanged.",
     "Verified standing gestures now fit both soles after body-proportion changes, preserving foot orientation and leg lengths. This bounded preview correction excludes jumps, single-foot support, floor and paired actions, imported rigs and full-HD models. Export retains the authored portable asset and restores the live preview. Classic/Haru captured-dance support metadata remains a separate audit item.",
     "Lite avatars: smoother Backflip arms with expanded camera bounds; corrected YMCA arm paths and Turn wrist orientations",
     "Lite single-avatar sleep: hands lift clear of the body, then settle into separated resting positions; matched roll/return/rest endpoints",
@@ -50,5 +51,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C1"
+  "checkpoint": "C4a-robot"
 }
