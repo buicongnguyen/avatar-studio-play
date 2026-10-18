@@ -107,3 +107,6 @@ The Lite blonde tee receives a small one-time collar and shoulder fit with match
 
 ## Lite sleep entry and recovery
 Ten Lite motion sources keep their hands outside the thighs while lowering to the floor and rising. Only bounded arm curves change; body, legs, fingers, support masks and the other seven sleep clips are retained. Combined large-body settings and clothing folds remain separate fitting work.
+
+## Male gesture finger refinement
+Asian, lean Asian and blond men now have relaxed grouped right fingers in nine reviewed empty-hand gestures. The change removes folded-through fingertip fragments, preserves body and other animation channels, and exports as ordinary animation. Hat tilt and microphone gestures remain separate contact work.
