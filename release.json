@@ -1,8 +1,11 @@
 {
-  "sourceCommit": "04f775bc156b73945708baf37002c3f6d76cf12f",
-  "builtAt": "2026-10-18T02:48:43.734519+00:00",
+  "sourceCommit": "4ac744effb3f3515b73fd33d067bba4fdc5502f9",
+  "builtAt": "2026-10-18T03:32:40.007870+00:00",
   "rootRelease": true,
   "features": [
+    "Floor playlists reject unsafe state repeats and loop boundaries, with endpoint-verified recovery suggestions",
+    "GLB exports include only visible equipment-compatible motions and explain omitted weapon clips",
+    "Garment-fit controls follow the selected top and first paired fits show accurate HD preparation status",
     "Play Single and Play Multiple with explicit Combat/Life scenarios and safe pending-session cancellation",
     "Visible wrapped Move Life category and shortcuts to paired scenarios",
     "Calibrated eight-joint audit on both actors with a bounded airborne Combat knee guard",

@@ -50,3 +50,6 @@ This is a test version, not a full body/cloth collision simulator. Large body ch
 New cheek/tongue morphs and ordinary materials export in GLB. Timed face actions and Life expression cues are studio logic and are not automatically baked into animation clips. Export includes body motions loaded in the session. Shy cheek tint and touch deformation are runtime effects.
 
 Model, motion and dependency credits: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
+
+## Plan repair release
+Floor playlists now prevent unsafe contact-state jumps and offer Add recovery. Shirt-length controls are enabled only for compatible selected tops. Hidden swords no longer leave unusable sword clips in exports; export reports any omitted motions. Initial paired fitting now displays its true preparation phase and HD timing guidance. All eight plans remain scoped test implementations, with remaining portability and visual refinements tracked in source documentation.
