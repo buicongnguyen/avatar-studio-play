@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "2077e6818e03e87269b83fa227242839b1ced390",
-  "builtAt": "2026-10-18T09:00:17.856510+00:00",
+  "sourceCommit": "73b4c0844f6e3bc7f176bb38c0c3a6a9777852cb",
+  "builtAt": "2026-10-18T09:07:58.623925+00:00",
   "rootRelease": true,
   "features": [
+    "Asian, lean Asian and blond men use a reviewed hand path and relaxed grouped fingers in the empty-hand microphone gesture. This keeps the sampled hand clear of the face and palm while preserving original clips and prior repairs. Corrected curves export normally; stylized wrist bends and existing shoulder clothing cuts remain.",
     "Move > Life offers an explicit cancellable floor fit for the refined ponytail Lite avatar. A worker verifies the current body through all nine floor motions before applying a cached preview correction. Defaults remain unchanged; unsupported settings decline, and exported clips retain their authored motion. This is scoped fitting, not general cloth or collision simulation.",
     "Asian, lean Asian and blond men now have relaxed grouped right fingers in nine reviewed empty-hand gestures. The change removes folded-through fingertip fragments, preserves body and other animation channels, and exports as ordinary animation. Hat tilt and microphone gestures remain separate contact work.",
     "Ten Lite motion sources keep their hands outside the thighs while lowering to the floor and rising. Only bounded arm curves change; body, legs, fingers, support masks and the other seven sleep clips are retained. Combined large-body settings and clothing folds remain separate fitting work.",
@@ -66,5 +67,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C3-sleep-fit"
+  "checkpoint": "C4a-micraise"
 }

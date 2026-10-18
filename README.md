@@ -113,3 +113,6 @@ Asian, lean Asian and blond men now have relaxed grouped right fingers in nine r
 
 ## Body-adjusted ponytail sleep fitting
 Move > Life offers an explicit cancellable floor fit for the refined ponytail Lite avatar. A worker verifies the current body through all nine floor motions before applying a cached preview correction. Defaults remain unchanged; unsupported settings decline, and exported clips retain their authored motion. This is scoped fitting, not general cloth or collision simulation.
+
+## Male microphone gesture clearance
+Asian, lean Asian and blond men use a reviewed hand path and relaxed grouped fingers in the empty-hand microphone gesture. This keeps the sampled hand clear of the face and palm while preserving original clips and prior repairs. Corrected curves export normally; stylized wrist bends and existing shoulder clothing cuts remain.
