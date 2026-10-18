@@ -143,3 +143,6 @@ Original Nabi has bounded foot and hand support for the exact reviewed slim-smal
 
 ## Stronger cheek makeup
 Cheek pinkness now extends to150percent while preserving the original0to100percent appearance. The shared range survives presets and editable/game GLB exports. Actual Lite masks, reset, actor isolation and Shy composition are checked; no model triangles or per-frame makeup work are added.
+
+## Calibrated hand-rule diagnostics
+Ten Lite sources now have measured bilateral wrist and grouped-finger profiles with explicit ownership for contact poses, transitions and paired actions. Read-only diagnostics distinguish wrist bend, roll and grouped digits without rewriting the animation. Unknown or changed rigs decline; this foundation does not claim universal collision prevention or independent little-finger control.

@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "5c0ca791d6dba1f149006686586dc79e985e73e5",
-  "builtAt": "2026-10-18T12:34:10.831515+00:00",
+  "sourceCommit": "d6cf29e0cad40cb8c4e3814850aabfb13e12ad3c",
+  "builtAt": "2026-10-18T12:48:40.085706+00:00",
   "rootRelease": true,
   "features": [
+    "Ten Lite sources now have measured bilateral wrist and grouped-finger profiles with explicit ownership for contact poses, transitions and paired actions. Read-only diagnostics distinguish wrist bend, roll and grouped digits without rewriting the animation. Unknown or changed rigs decline; this foundation does not claim universal collision prevention or independent little-finger control.",
     "Cheek pinkness now extends to150percent while preserving the original0to100percent appearance. The shared range survives presets and editable/game GLB exports. Actual Lite masks, reset, actor isolation and Shy composition are checked; no model triangles or per-frame makeup work are added.",
     "Original Nabi has bounded foot and hand support for the exact reviewed slim-small body with her default skirt outfit. A small table loads only for an eligible solo floor pose; default and other body settings retain their existing behavior. All nine floor actions and both exports are checked. Exports retain authored clips and label the support preview-only. General body fitting, garment folds and the existing Idle transition snap remain separate work.",
     "Move > Life offers a cancellable self-hug fit for Blonde Lite in her default outfit. It verifies the current body in a worker, with reviewed Idle transitions, caching and safe invalidation after body edits. The correction is a solo1x preview; exports retain all authored animations. Unsupported profiles decline, and general collision handling remains unfinished.",
@@ -76,5 +77,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "N-A2"
+  "checkpoint": "N-B2"
 }
