@@ -140,3 +140,6 @@ Move > Life offers a cancellable self-hug fit for Blonde Lite in her default out
 
 ## Original Nabi slim-profile floor support
 Original Nabi has bounded foot and hand support for the exact reviewed slim-small body with her default skirt outfit. A small table loads only for an eligible solo floor pose; default and other body settings retain their existing behavior. All nine floor actions and both exports are checked. Exports retain authored clips and label the support preview-only. General body fitting, garment folds and the existing Idle transition snap remain separate work.
+
+## Stronger cheek makeup
+Cheek pinkness now extends to150percent while preserving the original0to100percent appearance. The shared range survives presets and editable/game GLB exports. Actual Lite masks, reset, actor isolation and Shy composition are checked; no model triangles or per-frame makeup work are added.
