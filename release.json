@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "040b6fa0507d6c4c04c2a59a41a3882aad2e92e3",
-  "builtAt": "2026-10-18T13:23:13.040382+00:00",
+  "sourceCommit": "3f28a64140020cfd07634f66384ee4a38b9ecd8c",
+  "builtAt": "2026-10-18T13:43:50.199767+00:00",
   "rootRelease": true,
   "features": [
+    "Play Single offers an optional Torso spring demo for Korean gymnast Lite with her default body and outfit. Separate 0\u20130.16 N Press/Pull controls drive one reviewed torso patch while Idle is paused, with a maximum generalized amplitude of4mm. Release springs back and Done restores the previous scene. Existing visual touch stays available; both GLB exports retain source geometry and motions and label the spring preview-only. This is not whole-body tissue or arbitrary-contact physics.",
     "Move > Life offers a static back-rest bed preview for Ponytail Lite in her original body and outfit. A measured pillow supports the visible hair, the lying avatar is framed around controls, and Exit restores the previous motion and camera. Bed and temporary pose are excluded from both GLB exports. Other avatars, pose combinations, relaxed hands, crawling and bed transitions are not yet supported.",
     "Press/Pull limits now blend the actual skin weights at the chosen point, and the remote-pad marker follows the shader-deformed surface while retaining its original skin attachment. Multi-material hits qualify the actual touched material. Three Lite avatars pass ordinary Press/Pull/release and phone layout checks. This remains a visual effect: the experimental collision guard is not enabled and strong overlapping dents or nearby layers are not universally protected.",
     "Korean gymnast Lite now has a Chin height slider with a small vertical adjustment of up to about3mm, preserved in presets and both GLB exports. Other avatars and the original jaw width/roundness ranges are unchanged. Two wider-jaw candidates were rejected for angular outlines; the requested extended jaw range remains unfinished.",
@@ -80,5 +81,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "N-C1"
+  "checkpoint": "N-B4"
 }

@@ -155,3 +155,6 @@ Press/Pull limits now blend the actual skin weights at the chosen point, and the
 
 ## Measured static bed preview
 Move > Life offers a static back-rest bed preview for Ponytail Lite in her original body and outfit. A measured pillow supports the visible hair, the lying avatar is framed around controls, and Exit restores the previous motion and camera. Bed and temporary pose are excluded from both GLB exports. Other avatars, pose combinations, relaxed hands, crawling and bed transitions are not yet supported.
+
+## Bounded torso spring demo
+Play Single offers an optional Torso spring demo for Korean gymnast Lite with her default body and outfit. Separate 0–0.16 N Press/Pull controls drive one reviewed torso patch while Idle is paused, with a maximum generalized amplitude of4mm. Release springs back and Done restores the previous scene. Existing visual touch stays available; both GLB exports retain source geometry and motions and label the spring preview-only. This is not whole-body tissue or arbitrary-contact physics.
