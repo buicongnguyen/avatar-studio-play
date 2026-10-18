@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "4ac744effb3f3515b73fd33d067bba4fdc5502f9",
-  "builtAt": "2026-10-18T03:32:40.007870+00:00",
+  "sourceCommit": "bc715b5f334c1a8f793b533dd40eea0be52f6be6",
+  "builtAt": "2026-10-18T03:57:06.002030+00:00",
   "rootRelease": true,
   "features": [
+    "Corrected wrist roll in Head recoil and Protect nose, mouth and both eyes on all 13 rigs; preserved other motion channels",
     "Floor playlists reject unsafe state repeats and loop boundaries, with endpoint-verified recovery suggestions",
     "GLB exports include only visible equipment-compatible motions and explain omitted weapon clips",
     "Garment-fit controls follow the selected top and first paired fits show accurate HD preparation status",

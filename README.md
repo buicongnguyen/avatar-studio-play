@@ -53,3 +53,6 @@ Model, motion and dependency credits: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTI
 
 ## Plan repair release
 Floor playlists now prevent unsafe contact-state jumps and offer Add recovery. Shirt-length controls are enabled only for compatible selected tops. Hidden swords no longer leave unusable sword clips in exports; export reports any omitted motions. Initial paired fitting now displays its true preparation phase and HD timing guidance. All eight plans remain scoped test implementations, with remaining portability and visual refinements tracked in source documentation.
+
+## Protective wrist repair
+Head recoil and Protect nose, mouth and left/right eye now inherit the solved forearm orientation, eliminating the accidental half-turn at the wrist. All thirteen rigs use corrected baked tracks; unrelated motion and ready endpoints are preserved. Broader joint review remains a separate ongoing pass.
