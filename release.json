@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "b99944b518c28aadc6701e511e0124d6000437d2",
-  "builtAt": "2026-10-18T07:41:40.549358+00:00",
+  "sourceCommit": "0c2c480f96de8e540800d0e75b409a3fde2403af",
+  "builtAt": "2026-10-18T07:59:34.603792+00:00",
   "rootRelease": true,
   "features": [
+    "The Lite blonde tee receives a small one-time collar and shoulder fit with matched skin weights and body morphs. It removes the reviewed collar cut-through and is retained in portable GLB exports. No extra triangles or per-frame work are added; raised-sleeve folds and the Nabi jacket remain separate work.",
     "Asian and blond male Hat tilt gestures use a smoothed right-arm path that reduces overfolded elbow creases while preserving the palm direction. The lean male shares the Asian source. This bounded change retains existing fingers and does not solve every garment fold.",
     "Eight modern Lite avatars have a loose self-embrace with separated arm paths and improved wrist continuity. Source body/leg/finger motion and classic/Haru/HD packs are preserved. Selected large/short-arm settings can still overlap the torso; this is not general collision simulation.",
     "Updated Nabi, the blonde and the two Lite ponytail models keep their supporting left hand outside the hip during Hat tilt. The right-hand gesture is preserved; reviewed left-arm tracks export normally. This is a bounded pose repair, not general collision simulation.",
@@ -62,5 +63,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4a-hat-right"
+  "checkpoint": "C4b-shoulder"
 }
