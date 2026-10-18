@@ -164,3 +164,6 @@ Move > Sports offers one original overarm throw for Korean gymnast Lite in her d
 
 ## Measured side-rest bed poses
 Move > Life > Bed pose now offers Back rest, Left side and Right side for original Ponytail Lite. Each static pose uses measured mattress and pillow support, preserves the authored joints and retains the original body/outfit requirement. Exit restores the prior camera and motion. Both GLB exports preserve all original clips and omit the bed preview. Arbitrary arm/leg composition, crawling and bed entry remain unfinished.
+
+## Supported bed roll previews
+Original Ponytail Lite can roll from the measured back-rest bed pose onto either side and return through matching endpoints. The 4.8-second authored preview has its own play/pause and scrub controls and loads only the selected verified support track. Exit restores the pre-bed scene; GLB exports retain original avatar clips and exclude bed/pillow support. The inherited hand poses remain, and this is not crawling, bed entry or simulated cloth.
