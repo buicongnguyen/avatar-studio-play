@@ -62,3 +62,6 @@ Flamenco and solo-invitation wrist twists are corrected on affected rigs. Boxing
 
 ## Lite movement refinement
 Backflip, YMCA and Turn have reviewed arm/wrist corrections on supported Lite avatars. Side-sleep rolls use a clear upper-hand path and a reachable relaxed palm; connected floor endpoints and other body/foot tracks are preserved. Existing HD assets remain unchanged. Actual skinned-surface, continuity, endpoint, framing and browser checks accompany these changes. This is scoped authored-motion repair, not a general body/cloth collision engine. Shoulder/collar garment distortion and paired-contact fitting remain separate work. The target for future visual detail is a Lite body with selective face refinement, not a whole-body HD replacement.
+
+## Lite stance contact
+Verified standing gestures now fit both soles after body-proportion changes, preserving foot orientation and leg lengths. This bounded preview correction excludes jumps, single-foot support, floor and paired actions, imported rigs and full-HD models. Export retains the authored portable asset and restores the live preview. Classic/Haru captured-dance support metadata remains a separate audit item.
