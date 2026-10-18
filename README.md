@@ -110,3 +110,6 @@ Ten Lite motion sources keep their hands outside the thighs while lowering to th
 
 ## Male gesture finger refinement
 Asian, lean Asian and blond men now have relaxed grouped right fingers in nine reviewed empty-hand gestures. The change removes folded-through fingertip fragments, preserves body and other animation channels, and exports as ordinary animation. Hat tilt and microphone gestures remain separate contact work.
+
+## Body-adjusted ponytail sleep fitting
+Move > Life offers an explicit cancellable floor fit for the refined ponytail Lite avatar. A worker verifies the current body through all nine floor motions before applying a cached preview correction. Defaults remain unchanged; unsupported settings decline, and exported clips retain their authored motion. This is scoped fitting, not general cloth or collision simulation.
