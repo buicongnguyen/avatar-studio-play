@@ -95,3 +95,6 @@ Reviewed modern Lite forward jumps now reduce excessive palm roll while preservi
 
 ## Hat tilt supporting hand
 Updated Nabi, the blonde and the two Lite ponytail models keep their supporting left hand outside the hip during Hat tilt. The right-hand gesture is preserved; reviewed left-arm tracks export normally. This is a bounded pose repair, not general collision simulation.
+
+## Lite self-hug arm repair
+Eight modern Lite avatars have a loose self-embrace with separated arm paths and improved wrist continuity. Source body/leg/finger motion and classic/Haru/HD packs are preserved. Selected large/short-arm settings can still overlap the torso; this is not general collision simulation.

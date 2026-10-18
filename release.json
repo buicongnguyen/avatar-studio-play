@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "13a25d6d98fcf570a82159a983578947c14943c5",
-  "builtAt": "2026-10-18T07:18:45.452404+00:00",
+  "sourceCommit": "4d58fd3627d72461464a0d0134646a7f25b4feb2",
+  "builtAt": "2026-10-18T07:35:03.737759+00:00",
   "rootRelease": true,
   "features": [
+    "Eight modern Lite avatars have a loose self-embrace with separated arm paths and improved wrist continuity. Source body/leg/finger motion and classic/Haru/HD packs are preserved. Selected large/short-arm settings can still overlap the torso; this is not general collision simulation.",
     "Updated Nabi, the blonde and the two Lite ponytail models keep their supporting left hand outside the hip during Hat tilt. The right-hand gesture is preserved; reviewed left-arm tracks export normally. This is a bounded pose repair, not general collision simulation.",
     "Reviewed modern Lite forward jumps now reduce excessive palm roll while preserving hand direction, arm motion and the existing ankle corrections. The blond man\u2019s left hand remains unchanged after a rejected candidate; corrected tracks export normally.",
     "Asian, lean Asian and blond male tees have a bounded geometry correction that reduces raised-arm cut-through without extra triangles or per-frame work. It is preserved in GLB exports. Deep YMCA folds and some extreme body settings still need further garment/contact work.",
@@ -60,5 +61,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4a-hat"
+  "checkpoint": "C4a-selfhug"
 }
