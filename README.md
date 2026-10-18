@@ -146,3 +146,6 @@ Cheek pinkness now extends to150percent while preserving the original0to100perce
 
 ## Calibrated hand-rule diagnostics
 Ten Lite sources now have measured bilateral wrist and grouped-finger profiles with explicit ownership for contact poses, transitions and paired actions. Read-only diagnostics distinguish wrist bend, roll and grouped digits without rewriting the animation. Unknown or changed rigs decline; this foundation does not claim universal collision prevention or independent little-finger control.
+
+## Bounded gymnast chin height
+Korean gymnast Lite now has a Chin height slider with a small vertical adjustment of up to about3mm, preserved in presets and both GLB exports. Other avatars and the original jaw width/roundness ranges are unchanged. Two wider-jaw candidates were rejected for angular outlines; the requested extended jaw range remains unfinished.
