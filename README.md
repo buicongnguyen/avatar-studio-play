@@ -92,3 +92,6 @@ Asian, lean Asian and blond male tees have a bounded geometry correction that re
 
 ## Forward jump wrist refinement
 Reviewed modern Lite forward jumps now reduce excessive palm roll while preserving hand direction, arm motion and the existing ankle corrections. The blond man’s left hand remains unchanged after a rejected candidate; corrected tracks export normally.
+
+## Hat tilt supporting hand
+Updated Nabi, the blonde and the two Lite ponytail models keep their supporting left hand outside the hip during Hat tilt. The right-hand gesture is preserved; reviewed left-arm tracks export normally. This is a bounded pose repair, not general collision simulation.
