@@ -116,3 +116,6 @@ Move > Life offers an explicit cancellable floor fit for the refined ponytail Li
 
 ## Male microphone gesture clearance
 Asian, lean Asian and blond men use a reviewed hand path and relaxed grouped fingers in the empty-hand microphone gesture. This keeps the sampled hand clear of the face and palm while preserving original clips and prior repairs. Corrected curves export normally; stylized wrist bends and existing shoulder clothing cuts remain.
+
+## Nabi central jacket back repair
+Updated Nabi receives a small verified back-panel patch on primary and partner loads. It adds only132 triangles net, retains the existing body, face, rig and31 embedded clips, and exports as normal geometry. Front/side shoulder cuts remain. This release also corrects sleep-fit invalidation when visible held equipment changes.
