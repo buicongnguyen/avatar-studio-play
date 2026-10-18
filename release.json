@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "07a560844b4ae681526e00b240f2a31d0d9778fe",
-  "builtAt": "2026-10-18T06:23:08.109274+00:00",
+  "sourceCommit": "e161dc887c9e444053c7fb91c4113b7fcf3966d0",
+  "builtAt": "2026-10-18T06:47:45.196075+00:00",
   "rootRelease": true,
   "features": [
+    "Shots now includes a Godot import helper that preserves customized morph defaults, including negative body settings. Three representative Lite exports were verified in native Godot runtime and editor imports. The included guide describes animation-optimization tradeoffs and app-only behavior that is not exported.",
     "Supported Lite standing hugs use calibrated arm frames and checked surface clearance. Fitting runs in a worker with progress, cancellation and repeat-pair caching. Unsupported or infeasible pairs are rejected with an explanation; this is not general whole-body collision simulation.",
     "The Asian, lean Asian and blond male tees now fit the neck and upper collar with matched skin weights and body morphs. Export retains the fitted garment. This scoped correction leaves sleeve and underarm folds for a separate pass.",
     "The Lite Korean gymnast has refined cheek, jaw, nose and lip proportions with baked lower lashes, preserving body controls, the bind rig and all animations. Backflip camera bounds also retain source-motion extents. Full-HD assets remain unchanged; measured face ratios are fitting evidence, not a claim of exact identity.",
@@ -54,5 +55,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C2"
+  "checkpoint": "C7"
 }

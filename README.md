@@ -77,3 +77,6 @@ The Asian, lean Asian and blond male tees now fit the neck and upper collar with
 
 ## Paired hug fitting and cancellation
 Supported Lite standing hugs use calibrated arm frames and checked surface clearance. Fitting runs in a worker with progress, cancellation and repeat-pair caching. Unsupported or infeasible pairs are rejected with an explanation; this is not general whole-body collision simulation.
+
+## Godot import helper
+Shots now includes a Godot import helper that preserves customized morph defaults, including negative body settings. Three representative Lite exports were verified in native Godot runtime and editor imports. The included guide describes animation-optimization tradeoffs and app-only behavior that is not exported.

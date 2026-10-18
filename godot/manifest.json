@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "godotTested": "4.7.2",
+  "files": {
+    "README.md": "3e8565544654d008a8e88b3d3f4be5ee62fec594d9c101825bed5135764f9d93",
+    "avatar_gltf_defaults.gd": "68a145337ea6ded0aec2e15b0d117fd20e1b84346f80e6d01a975861a54a6218",
+    "avatar_post_import.gd": "bc177add3a86a1d965a7a38c94339c27a373e681fecdaa94791354ff07a2f720"
+  },
+  "archiveSha256": "ffc21ba5e2e6af349b8e03734192a7b524d80013545ed93a50e6dcf27d317c4f"
+}
