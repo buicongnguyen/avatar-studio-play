@@ -71,3 +71,6 @@ Robot dance uses relaxed forearm-relative palms on eight modern Lite rigs, with 
 
 ## Korean gymnast face proportions
 The Lite Korean gymnast has refined cheek, jaw, nose and lip proportions with baked lower lashes, preserving body controls, the bind rig and all animations. Backflip camera bounds also retain source-motion extents. Full-HD assets remain unchanged; measured face ratios are fitting evidence, not a claim of exact identity.
+
+## Male tee collar clearance
+The Asian, lean Asian and blond male tees now fit the neck and upper collar with matched skin weights and body morphs. Export retains the fitted garment. This scoped correction leaves sleeve and underarm folds for a separate pass.
