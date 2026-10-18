@@ -98,3 +98,6 @@ Updated Nabi, the blonde and the two Lite ponytail models keep their supporting 
 
 ## Lite self-hug arm repair
 Eight modern Lite avatars have a loose self-embrace with separated arm paths and improved wrist continuity. Source body/leg/finger motion and classic/Haru/HD packs are preserved. Selected large/short-arm settings can still overlap the torso; this is not general collision simulation.
+
+## Smoother male hat gesture
+Asian and blond male Hat tilt gestures use a smoothed right-arm path that reduces overfolded elbow creases while preserving the palm direction. The lean male shares the Asian source. This bounded change retains existing fingers and does not solve every garment fold.
