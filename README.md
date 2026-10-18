@@ -68,3 +68,6 @@ Verified standing gestures now fit both soles after body-proportion changes, pre
 
 ## Lite Robot wrist repair
 Robot dance uses relaxed forearm-relative palms on eight modern Lite rigs, with neutral hands clear of the thighs. The original raised-shoulder poses and short staccato timing are retained. Other clips, legs and HD assets are unchanged.
+
+## Korean gymnast face proportions
+The Lite Korean gymnast has refined cheek, jaw, nose and lip proportions with baked lower lashes, preserving body controls, the bind rig and all animations. Backflip camera bounds also retain source-motion extents. Full-HD assets remain unchanged; measured face ratios are fitting evidence, not a claim of exact identity.
