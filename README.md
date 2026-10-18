@@ -59,3 +59,6 @@ Head recoil and Protect nose, mouth and left/right eye now inherit the solved fo
 
 ## Wrist and arm motion update
 Flamenco and solo-invitation wrist twists are corrected on affected rigs. Boxing hook and Muay Thai style elbow use coherent arm frames through guard transitions. Body/foot tracks remain preserved. The release also adds solo motion mirroring, a portable game-GLB export, reviewed lower-lash visibility and restrained back-sleep breathing. Full integration suite: 1,056 passing tests; final changed-motion suite: 93 passing tests. The separate sleep-turn self-clearance repair is still being evaluated.
+
+## Lite movement refinement
+Backflip, YMCA and Turn have reviewed arm/wrist corrections on supported Lite avatars. Side-sleep rolls use a clear upper-hand path and a reachable relaxed palm; connected floor endpoints and other body/foot tracks are preserved. Existing HD assets remain unchanged. Actual skinned-surface, continuity, endpoint, framing and browser checks accompany these changes. This is scoped authored-motion repair, not a general body/cloth collision engine. Shoulder/collar garment distortion and paired-contact fitting remain separate work. The target for future visual detail is a Lite body with selective face refinement, not a whole-body HD replacement.

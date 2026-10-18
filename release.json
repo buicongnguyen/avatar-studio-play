@@ -1,8 +1,11 @@
 {
-  "sourceCommit": "74971557473d4d932d069a08d5579d600a8db950",
-  "builtAt": "2026-10-18T04:27:37.088879+00:00",
+  "sourceCommit": "a7a8aeeae471c2ba31ea921a25d8a04cf8ca445a",
+  "builtAt": "2026-10-18T05:01:22.891058+00:00",
   "rootRelease": true,
   "features": [
+    "Lite avatars: smoother Backflip arms with expanded camera bounds; corrected YMCA arm paths and Turn wrist orientations",
+    "Lite single-avatar sleep: hands lift clear of the body, then settle into separated resting positions; matched roll/return/rest endpoints",
+    "Lite-first development; selectively detailed face planned, no new full-HD model rebuild",
     "Fixed collapsed Flamenco and solo-invitation wrists; improved Boxing hook and Muay Thai elbow arm transitions",
     "Solo motion mirror, portable customized game GLB export, reviewed lower lashes and restrained back-sleep breathing",
     "Contact-aware joint diagnostics and mirrored kick guard; sleep-turn clearance work remains in progress",
