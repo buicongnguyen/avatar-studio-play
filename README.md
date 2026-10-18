@@ -80,3 +80,6 @@ Supported Lite standing hugs use calibrated arm frames and checked surface clear
 
 ## Godot import helper
 Shots now includes a Godot import helper that preserves customized morph defaults, including negative body settings. Three representative Lite exports were verified in native Godot runtime and editor imports. The included guide describes animation-optimization tradeoffs and app-only behavior that is not exported.
+
+## Child pose palm and wrist repair
+Modern Lite Child pose keeps palms flat and wrists connected. A bounded, restored preview correction maintains hand support for tested body settings; authored arm changes export normally. Other clips, native rigs and full-HD assets remain unchanged.
