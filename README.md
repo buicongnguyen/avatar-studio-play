@@ -122,3 +122,6 @@ Updated Nabi receives a small verified back-panel patch on primary and partner l
 
 ## Male hat gesture hand refinement
 Asian, lean Asian and blond men now use relaxed grouped fingers and a reviewed low-hand path in Hat tilt, composed with the earlier elbow fix. Sampled body settings and Idle transitions retain hand clearance, and corrected curves export normally. Existing wrist creases and some sleeve folds remain.
+
+## Portable animation timestamp repair
+Studio and game GLB exports now use strictly increasing animation sample times. Near-identical float32 duplicate keys are merged on export copies only, preserving live playback and all clips; conflicting keys fail clearly. Verified on all floor packs and actual ponytail and original Nabi browser exports.
