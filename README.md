@@ -56,3 +56,6 @@ Floor playlists now prevent unsafe contact-state jumps and offer Add recovery. S
 
 ## Protective wrist repair
 Head recoil and Protect nose, mouth and left/right eye now inherit the solved forearm orientation, eliminating the accidental half-turn at the wrist. All thirteen rigs use corrected baked tracks; unrelated motion and ready endpoints are preserved. Broader joint review remains a separate ongoing pass.
+
+## Wrist and arm motion update
+Flamenco and solo-invitation wrist twists are corrected on affected rigs. Boxing hook and Muay Thai style elbow use coherent arm frames through guard transitions. Body/foot tracks remain preserved. The release also adds solo motion mirroring, a portable game-GLB export, reviewed lower-lash visibility and restrained back-sleep breathing. Full integration suite: 1,056 passing tests; final changed-motion suite: 93 passing tests. The separate sleep-turn self-clearance repair is still being evaluated.

@@ -1,8 +1,11 @@
 {
-  "sourceCommit": "bc715b5f334c1a8f793b533dd40eea0be52f6be6",
-  "builtAt": "2026-10-18T03:57:06.002030+00:00",
+  "sourceCommit": "74971557473d4d932d069a08d5579d600a8db950",
+  "builtAt": "2026-10-18T04:27:37.088879+00:00",
   "rootRelease": true,
   "features": [
+    "Fixed collapsed Flamenco and solo-invitation wrists; improved Boxing hook and Muay Thai elbow arm transitions",
+    "Solo motion mirror, portable customized game GLB export, reviewed lower lashes and restrained back-sleep breathing",
+    "Contact-aware joint diagnostics and mirrored kick guard; sleep-turn clearance work remains in progress",
     "Corrected wrist roll in Head recoil and Protect nose, mouth and both eyes on all 13 rigs; preserved other motion channels",
     "Floor playlists reject unsafe state repeats and loop boundaries, with endpoint-verified recovery suggestions",
     "GLB exports include only visible equipment-compatible motions and explain omitted weapon clips",
