@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "0c2c480f96de8e540800d0e75b409a3fde2403af",
-  "builtAt": "2026-10-18T07:59:34.603792+00:00",
+  "sourceCommit": "20c52859abab4a3d76052740f140e1a2dd571109",
+  "builtAt": "2026-10-18T08:20:15.926538+00:00",
   "rootRelease": true,
   "features": [
+    "Ten Lite motion sources keep their hands outside the thighs while lowering to the floor and rising. Only bounded arm curves change; body, legs, fingers, support masks and the other seven sleep clips are retained. Combined large-body settings and clothing folds remain separate fitting work.",
     "The Lite blonde tee receives a small one-time collar and shoulder fit with matched skin weights and body morphs. It removes the reviewed collar cut-through and is retained in portable GLB exports. No extra triangles or per-frame work are added; raised-sleeve folds and the Nabi jacket remain separate work.",
     "Asian and blond male Hat tilt gestures use a smoothed right-arm path that reduces overfolded elbow creases while preserving the palm direction. The lean male shares the Asian source. This bounded change retains existing fingers and does not solve every garment fold.",
     "Eight modern Lite avatars have a loose self-embrace with separated arm paths and improved wrist continuity. Source body/leg/finger motion and classic/Haru/HD packs are preserved. Selected large/short-arm settings can still overlap the torso; this is not general collision simulation.",
@@ -63,5 +64,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4b-shoulder"
+  "checkpoint": "C4a-sleep-crouch"
 }

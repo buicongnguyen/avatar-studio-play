@@ -104,3 +104,6 @@ Asian and blond male Hat tilt gestures use a smoothed right-arm path that reduce
 
 ## Blonde collar and shoulder fit
 The Lite blonde tee receives a small one-time collar and shoulder fit with matched skin weights and body morphs. It removes the reviewed collar cut-through and is retained in portable GLB exports. No extra triangles or per-frame work are added; raised-sleeve folds and the Nabi jacket remain separate work.
+
+## Lite sleep entry and recovery
+Ten Lite motion sources keep their hands outside the thighs while lowering to the floor and rising. Only bounded arm curves change; body, legs, fingers, support masks and the other seven sleep clips are retained. Combined large-body settings and clothing folds remain separate fitting work.
