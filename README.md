@@ -149,3 +149,6 @@ Ten Lite sources now have measured bilateral wrist and grouped-finger profiles w
 
 ## Bounded gymnast chin height
 Korean gymnast Lite now has a Chin height slider with a small vertical adjustment of up to about3mm, preserved in presets and both GLB exports. Other avatars and the original jaw width/roundness ranges are unchanged. Two wider-jaw candidates were rejected for angular outlines; the requested extended jaw range remains unfinished.
+
+## Regional touch and surface tracking
+Press/Pull limits now blend the actual skin weights at the chosen point, and the remote-pad marker follows the shader-deformed surface while retaining its original skin attachment. Multi-material hits qualify the actual touched material. Three Lite avatars pass ordinary Press/Pull/release and phone layout checks. This remains a visual effect: the experimental collision guard is not enabled and strong overlapping dents or nearby layers are not universally protected.

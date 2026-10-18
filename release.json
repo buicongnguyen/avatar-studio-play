@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "03907737c0adc6095d093126ae0a251dee741e97",
-  "builtAt": "2026-10-18T12:54:45.478494+00:00",
+  "sourceCommit": "b485f9695b9c383f0aeeb46507e09bb79f8c0073",
+  "builtAt": "2026-10-18T13:05:48.470518+00:00",
   "rootRelease": true,
   "features": [
+    "Press/Pull limits now blend the actual skin weights at the chosen point, and the remote-pad marker follows the shader-deformed surface while retaining its original skin attachment. Multi-material hits qualify the actual touched material. Three Lite avatars pass ordinary Press/Pull/release and phone layout checks. This remains a visual effect: the experimental collision guard is not enabled and strong overlapping dents or nearby layers are not universally protected.",
     "Korean gymnast Lite now has a Chin height slider with a small vertical adjustment of up to about3mm, preserved in presets and both GLB exports. Other avatars and the original jaw width/roundness ranges are unchanged. Two wider-jaw candidates were rejected for angular outlines; the requested extended jaw range remains unfinished.",
     "Ten Lite sources now have measured bilateral wrist and grouped-finger profiles with explicit ownership for contact poses, transitions and paired actions. Read-only diagnostics distinguish wrist bend, roll and grouped digits without rewriting the animation. Unknown or changed rigs decline; this foundation does not claim universal collision prevention or independent little-finger control.",
     "Cheek pinkness now extends to150percent while preserving the original0to100percent appearance. The shared range survives presets and editable/game GLB exports. Actual Lite masks, reset, actor isolation and Shy composition are checked; no model triangles or per-frame makeup work are added.",
@@ -78,5 +79,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "N-A1"
+  "checkpoint": "N-B3"
 }
