@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "a5881de2b5b5a5e599c6426eacdfd8e91ec4ac97",
-  "builtAt": "2026-10-18T09:19:02.786078+00:00",
+  "sourceCommit": "18bc17806b34bb4acddf9981da44da4754e96ca2",
+  "builtAt": "2026-10-18T09:29:02.861676+00:00",
   "rootRelease": true,
   "features": [
+    "Asian, lean Asian and blond men now use relaxed grouped fingers and a reviewed low-hand path in Hat tilt, composed with the earlier elbow fix. Sampled body settings and Idle transitions retain hand clearance, and corrected curves export normally. Existing wrist creases and some sleeve folds remain.",
     "Updated Nabi receives a small verified back-panel patch on primary and partner loads. It adds only132 triangles net, retains the existing body, face, rig and31 embedded clips, and exports as normal geometry. Front/side shoulder cuts remain. This release also corrects sleep-fit invalidation when visible held equipment changes.",
     "Asian, lean Asian and blond men use a reviewed hand path and relaxed grouped fingers in the empty-hand microphone gesture. This keeps the sampled hand clear of the face and palm while preserving original clips and prior repairs. Corrected curves export normally; stylized wrist bends and existing shoulder clothing cuts remain.",
     "Move > Life offers an explicit cancellable floor fit for the refined ponytail Lite avatar. A worker verifies the current body through all nine floor motions before applying a cached preview correction. Defaults remain unchanged; unsupported settings decline, and exported clips retain their authored motion. This is scoped fitting, not general cloth or collision simulation.",
@@ -68,5 +69,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4b-nabi-yoke"
+  "checkpoint": "C4a-hat-grip"
 }

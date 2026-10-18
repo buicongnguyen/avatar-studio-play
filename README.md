@@ -119,3 +119,6 @@ Asian, lean Asian and blond men use a reviewed hand path and relaxed grouped fin
 
 ## Nabi central jacket back repair
 Updated Nabi receives a small verified back-panel patch on primary and partner loads. It adds only132 triangles net, retains the existing body, face, rig and31 embedded clips, and exports as normal geometry. Front/side shoulder cuts remain. This release also corrects sleep-fit invalidation when visible held equipment changes.
+
+## Male hat gesture hand refinement
+Asian, lean Asian and blond men now use relaxed grouped fingers and a reviewed low-hand path in Hat tilt, composed with the earlier elbow fix. Sampled body settings and Idle transitions retain hand clearance, and corrected curves export normally. Existing wrist creases and some sleeve folds remain.
