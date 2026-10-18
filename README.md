@@ -152,3 +152,6 @@ Korean gymnast Lite now has a Chin height slider with a small vertical adjustmen
 
 ## Regional touch and surface tracking
 Press/Pull limits now blend the actual skin weights at the chosen point, and the remote-pad marker follows the shader-deformed surface while retaining its original skin attachment. Multi-material hits qualify the actual touched material. Three Lite avatars pass ordinary Press/Pull/release and phone layout checks. This remains a visual effect: the experimental collision guard is not enabled and strong overlapping dents or nearby layers are not universally protected.
+
+## Measured static bed preview
+Move > Life offers a static back-rest bed preview for Ponytail Lite in her original body and outfit. A measured pillow supports the visible hair, the lying avatar is framed around controls, and Exit restores the previous motion and camera. Bed and temporary pose are excluded from both GLB exports. Other avatars, pose combinations, relaxed hands, crawling and bed transitions are not yet supported.
