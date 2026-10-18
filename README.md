@@ -131,3 +131,6 @@ Original Nabi uses reviewed hand paths during Lie down and Rise in her default b
 
 ## Lite gymnast eye refinement
 Korean gymnast Lite has a modest eye-width and spacing refinement with preserved closed eyelids. It adds no triangles, retains all original animations and other avatars, and adds about12KB. Actual Studio face controls, portable exports and a Godot runtime check pass. Inherited corner lash tufts remain; fitted image ratios do not establish exact identity.
+
+## Private worker skin coordinates
+Body fitting workers now retain the exact mounted skin coordinates and morph state of the displayed avatar. Invalid mount transforms reject safely. The ordinary ponytail floor fit and portable export pass after this correction; source animations and models are unchanged.
