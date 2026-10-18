@@ -128,3 +128,6 @@ Studio and game GLB exports now use strictly increasing animation sample times. 
 
 ## Original Nabi default sleep hands
 Original Nabi uses reviewed hand paths during Lie down and Rise in her default body and skirt. The small motion dataset loads only with floor motions; unsupported body or clothing changes retain the authored movement. Both exports preserve all clips and the accepted default hand paths. Other avatars and source packs are unchanged; general cloth collision fitting remains unfinished.
+
+## Lite gymnast eye refinement
+Korean gymnast Lite has a modest eye-width and spacing refinement with preserved closed eyelids. It adds no triangles, retains all original animations and other avatars, and adds about12KB. Actual Studio face controls, portable exports and a Godot runtime check pass. Inherited corner lash tufts remain; fitted image ratios do not establish exact identity.
