@@ -86,3 +86,6 @@ Modern Lite Child pose keeps palms flat and wrists connected. A bounded, restore
 
 ## Magnetic foot heading correction
 Original Nabi and Haru now have a source-specific correction to a short excessive foot twist in Magnetic, with false near-ground support flags removed. The authored sole tilt, ankle path, planted poses and other clips are preserved.
+
+## Male sleeve fit
+Asian, lean Asian and blond male tees have a bounded geometry correction that reduces raised-arm cut-through without extra triangles or per-frame work. It is preserved in GLB exports. Deep YMCA folds and some extreme body settings still need further garment/contact work.
