@@ -158,3 +158,6 @@ Move > Life offers a static back-rest bed preview for Ponytail Lite in her origi
 
 ## Bounded torso spring demo
 Play Single offers an optional Torso spring demo for Korean gymnast Lite with her default body and outfit. Separate 0–0.16 N Press/Pull controls drive one reviewed torso patch while Idle is paused, with a maximum generalized amplitude of4mm. Release springs back and Done restores the previous scene. Existing visual touch stays available; both GLB exports retain source geometry and motions and label the spring preview-only. This is not whole-body tissue or arbitrary-contact physics.
+
+## Lite overarm throw preview
+Move > Sports offers one original overarm throw for Korean gymnast Lite in her default body and outfit. Its 25KB motion pack loads on request, and an illustrative ball follows clip time through held and released phases. The ball is preview-only; the reviewed animation is included in both exports for its qualified profile. Imported animations remain ordinary clips even if they share the Sports name. Chest pass and male throw candidates failed contact checks and are not included.

@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "3f28a64140020cfd07634f66384ee4a38b9ecd8c",
-  "builtAt": "2026-10-18T13:43:50.199767+00:00",
+  "sourceCommit": "4847072e0af3a6e014d343100e57b18f966565db",
+  "builtAt": "2026-10-18T14:01:17.380192+00:00",
   "rootRelease": true,
   "features": [
+    "Move > Sports offers one original overarm throw for Korean gymnast Lite in her default body and outfit. Its 25KB motion pack loads on request, and an illustrative ball follows clip time through held and released phases. The ball is preview-only; the reviewed animation is included in both exports for its qualified profile. Imported animations remain ordinary clips even if they share the Sports name. Chest pass and male throw candidates failed contact checks and are not included.",
     "Play Single offers an optional Torso spring demo for Korean gymnast Lite with her default body and outfit. Separate 0\u20130.16 N Press/Pull controls drive one reviewed torso patch while Idle is paused, with a maximum generalized amplitude of4mm. Release springs back and Done restores the previous scene. Existing visual touch stays available; both GLB exports retain source geometry and motions and label the spring preview-only. This is not whole-body tissue or arbitrary-contact physics.",
     "Move > Life offers a static back-rest bed preview for Ponytail Lite in her original body and outfit. A measured pillow supports the visible hair, the lying avatar is framed around controls, and Exit restores the previous motion and camera. Bed and temporary pose are excluded from both GLB exports. Other avatars, pose combinations, relaxed hands, crawling and bed transitions are not yet supported.",
     "Press/Pull limits now blend the actual skin weights at the chosen point, and the remote-pad marker follows the shader-deformed surface while retaining its original skin attachment. Multi-material hits qualify the actual touched material. Three Lite avatars pass ordinary Press/Pull/release and phone layout checks. This remains a visual effect: the experimental collision guard is not enabled and strong overlapping dents or nearby layers are not universally protected.",
@@ -81,5 +82,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "N-B4"
+  "checkpoint": "N-D1"
 }
