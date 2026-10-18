@@ -125,3 +125,6 @@ Asian, lean Asian and blond men now use relaxed grouped fingers and a reviewed l
 
 ## Portable animation timestamp repair
 Studio and game GLB exports now use strictly increasing animation sample times. Near-identical float32 duplicate keys are merged on export copies only, preserving live playback and all clips; conflicting keys fail clearly. Verified on all floor packs and actual ponytail and original Nabi browser exports.
+
+## Original Nabi default sleep hands
+Original Nabi uses reviewed hand paths during Lie down and Rise in her default body and skirt. The small motion dataset loads only with floor motions; unsupported body or clothing changes retain the authored movement. Both exports preserve all clips and the accepted default hand paths. Other avatars and source packs are unchanged; general cloth collision fitting remains unfinished.

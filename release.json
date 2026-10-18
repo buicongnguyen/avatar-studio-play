@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "4cf9017f9df0876fc53f3ef676ed048389924771",
-  "builtAt": "2026-10-18T09:56:48.038824+00:00",
+  "sourceCommit": "09aaf8e1024af67f962730f2ab0c1ba38c461fb5",
+  "builtAt": "2026-10-18T10:24:30.414691+00:00",
   "rootRelease": true,
   "features": [
+    "Original Nabi uses reviewed hand paths during Lie down and Rise in her default body and skirt. The small motion dataset loads only with floor motions; unsupported body or clothing changes retain the authored movement. Both exports preserve all clips and the accepted default hand paths. Other avatars and source packs are unchanged; general cloth collision fitting remains unfinished.",
     "Studio and game GLB exports now use strictly increasing animation sample times. Near-identical float32 duplicate keys are merged on export copies only, preserving live playback and all clips; conflicting keys fail clearly. Verified on all floor packs and actual ponytail and original Nabi browser exports.",
     "Asian, lean Asian and blond men now use relaxed grouped fingers and a reviewed low-hand path in Hat tilt, composed with the earlier elbow fix. Sampled body settings and Idle transitions retain hand clearance, and corrected curves export normally. Existing wrist creases and some sleeve folds remain.",
     "Updated Nabi receives a small verified back-panel patch on primary and partner loads. It adds only132 triangles net, retains the existing body, face, rig and31 embedded clips, and exports as normal geometry. Front/side shoulder cuts remain. This release also corrects sleep-fit invalidation when visible held equipment changes.",
@@ -70,5 +71,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C7-animation-times"
+  "checkpoint": "C3-classic-hands"
 }
