@@ -89,3 +89,6 @@ Original Nabi and Haru now have a source-specific correction to a short excessiv
 
 ## Male sleeve fit
 Asian, lean Asian and blond male tees have a bounded geometry correction that reduces raised-arm cut-through without extra triangles or per-frame work. It is preserved in GLB exports. Deep YMCA folds and some extreme body settings still need further garment/contact work.
+
+## Forward jump wrist refinement
+Reviewed modern Lite forward jumps now reduce excessive palm roll while preserving hand direction, arm motion and the existing ankle corrections. The blond man’s left hand remains unchanged after a rejected candidate; corrected tracks export normally.

@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "14aeb81e34c91c27cae3cdb41631443dd738a507",
-  "builtAt": "2026-10-18T06:58:14.831308+00:00",
+  "sourceCommit": "dbac4d175b973920bde9f8e1fe66d19972c83368",
+  "builtAt": "2026-10-18T07:12:41.736456+00:00",
   "rootRelease": true,
   "features": [
+    "Reviewed modern Lite forward jumps now reduce excessive palm roll while preserving hand direction, arm motion and the existing ankle corrections. The blond man\u2019s left hand remains unchanged after a rejected candidate; corrected tracks export normally.",
     "Asian, lean Asian and blond male tees have a bounded geometry correction that reduces raised-arm cut-through without extra triangles or per-frame work. It is preserved in GLB exports. Deep YMCA folds and some extreme body settings still need further garment/contact work.",
     "Original Nabi and Haru now have a source-specific correction to a short excessive foot twist in Magnetic, with false near-ground support flags removed. The authored sole tilt, ankle path, planted poses and other clips are preserved.",
     "Modern Lite Child pose keeps palms flat and wrists connected. A bounded, restored preview correction maintains hand support for tested body settings; authored arm changes export normally. Other clips, native rigs and full-HD assets remain unchanged.",
@@ -58,5 +59,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4b-sleeves"
+  "checkpoint": "C4a-jump"
 }
