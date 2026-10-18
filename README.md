@@ -74,3 +74,6 @@ The Lite Korean gymnast has refined cheek, jaw, nose and lip proportions with ba
 
 ## Male tee collar clearance
 The Asian, lean Asian and blond male tees now fit the neck and upper collar with matched skin weights and body morphs. Export retains the fitted garment. This scoped correction leaves sleeve and underarm folds for a separate pass.
+
+## Paired hug fitting and cancellation
+Supported Lite standing hugs use calibrated arm frames and checked surface clearance. Fitting runs in a worker with progress, cancellation and repeat-pair caching. Unsupported or infeasible pairs are rejected with an explanation; this is not general whole-body collision simulation.

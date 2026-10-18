@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "1ee820cc89302b22cfd34cda14cbdafecc063249",
-  "builtAt": "2026-10-18T06:19:20.247090+00:00",
+  "sourceCommit": "07a560844b4ae681526e00b240f2a31d0d9778fe",
+  "builtAt": "2026-10-18T06:23:08.109274+00:00",
   "rootRelease": true,
   "features": [
+    "Supported Lite standing hugs use calibrated arm frames and checked surface clearance. Fitting runs in a worker with progress, cancellation and repeat-pair caching. Unsupported or infeasible pairs are rejected with an explanation; this is not general whole-body collision simulation.",
     "The Asian, lean Asian and blond male tees now fit the neck and upper collar with matched skin weights and body morphs. Export retains the fitted garment. This scoped correction leaves sleeve and underarm folds for a separate pass.",
     "The Lite Korean gymnast has refined cheek, jaw, nose and lip proportions with baked lower lashes, preserving body controls, the bind rig and all animations. Backflip camera bounds also retain source-motion extents. Full-HD assets remain unchanged; measured face ratios are fitting evidence, not a claim of exact identity.",
     "Robot dance uses relaxed forearm-relative palms on eight modern Lite rigs, with neutral hands clear of the thighs. The original raised-shoulder poses and short staccato timing are retained. Other clips, legs and HD assets are unchanged.",
@@ -53,5 +54,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C4b-collar"
+  "checkpoint": "C2"
 }
