@@ -1,8 +1,9 @@
 {
-  "sourceCommit": "8487da0cafb3f4e1d94b387f0f1041f9dd1a2c01",
-  "builtAt": "2026-10-18T11:19:09.391233+00:00",
+  "sourceCommit": "2ca32a0d839ed3cc859bbae2ac2bc38b21d18a08",
+  "builtAt": "2026-10-18T11:58:19.825109+00:00",
   "rootRelease": true,
   "features": [
+    "Original Nabi has bounded foot and hand support for the exact reviewed slim-small body with her default skirt outfit. A small table loads only for an eligible solo floor pose; default and other body settings retain their existing behavior. All nine floor actions and both exports are checked. Exports retain authored clips and label the support preview-only. General body fitting, garment folds and the existing Idle transition snap remain separate work.",
     "Move > Life offers a cancellable self-hug fit for Blonde Lite in her default outfit. It verifies the current body in a worker, with reviewed Idle transitions, caching and safe invalidation after body edits. The correction is a solo1x preview; exports retain all authored animations. Unsupported profiles decline, and general collision handling remains unfinished.",
     "Body fitting workers now retain the exact mounted skin coordinates and morph state of the displayed avatar. Invalid mount transforms reject safely. The ordinary ponytail floor fit and portable export pass after this correction; source animations and models are unchanged.",
     "Korean gymnast Lite has a modest eye-width and spacing refinement with preserved closed eyelids. It adds no triangles, retains all original animations and other avatars, and adds about12KB. Actual Studio face controls, portable exports and a Godot runtime check pass. Inherited corner lash tufts remain; fitted image ratios do not establish exact identity.",
@@ -74,5 +75,5 @@
     "Existing combat, flips, gym, normal walk/run and playlists",
     "Korean gymnast PC HD"
   ],
-  "checkpoint": "C3-selfhug-fit"
+  "checkpoint": "C3-classic-slim"
 }

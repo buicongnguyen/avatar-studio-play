@@ -137,3 +137,6 @@ Body fitting workers now retain the exact mounted skin coordinates and morph sta
 
 ## Body-adjusted self-hug fitting
 Move > Life offers a cancellable self-hug fit for Blonde Lite in her default outfit. It verifies the current body in a worker, with reviewed Idle transitions, caching and safe invalidation after body edits. The correction is a solo1x preview; exports retain all authored animations. Unsupported profiles decline, and general collision handling remains unfinished.
+
+## Original Nabi slim-profile floor support
+Original Nabi has bounded foot and hand support for the exact reviewed slim-small body with her default skirt outfit. A small table loads only for an eligible solo floor pose; default and other body settings retain their existing behavior. All nine floor actions and both exports are checked. Exports retain authored clips and label the support preview-only. General body fitting, garment folds and the existing Idle transition snap remain separate work.
