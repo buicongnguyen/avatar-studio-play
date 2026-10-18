@@ -134,3 +134,6 @@ Korean gymnast Lite has a modest eye-width and spacing refinement with preserved
 
 ## Private worker skin coordinates
 Body fitting workers now retain the exact mounted skin coordinates and morph state of the displayed avatar. Invalid mount transforms reject safely. The ordinary ponytail floor fit and portable export pass after this correction; source animations and models are unchanged.
+
+## Body-adjusted self-hug fitting
+Move > Life offers a cancellable self-hug fit for Blonde Lite in her default outfit. It verifies the current body in a worker, with reviewed Idle transitions, caching and safe invalidation after body edits. The correction is a solo1x preview; exports retain all authored animations. Unsupported profiles decline, and general collision handling remains unfinished.
